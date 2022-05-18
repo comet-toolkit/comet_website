@@ -8,8 +8,25 @@ main:
     url: tour
     weight: 10
   - name: Tools
-    url: tools
-    weight: 20
+      url: tools
+      weight: 20
+  - name: Obsarray
+      url: obsarray
+      parent: tools
+      weight: 20
+  - name: Punpy
+      url: punpy
+      parent: tools
+      weight: 20
+  - name: Comet_math
+      url: comet_math
+      parent: tools
+      weight: 20
+
+
+  - name: Examples
+      url: examples
+      weight: 20
   - name: News
     url: post
     weight: 30
