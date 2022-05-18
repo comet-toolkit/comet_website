@@ -11,19 +11,17 @@ main:
       url: tools
       weight: 20
   - name: Obsarray
-      url: obsarray
       parent: tools
+      url: tools/obsarray/
       weight: 20
   - name: Punpy
-      url: punpy
       parent: tools
+      url: tools/punpy/
       weight: 20
   - name: Comet_math
-      url: comet_math
       parent: tools
+      url: tools/comet_math/
       weight: 20
-
-
   - name: Examples
       url: examples
       weight: 20
