@@ -8,8 +8,8 @@ main:
     url: tour
     weight: 10
   - name: Tools
-      url: tools
-      weight: 20
+    url: tools
+    weight: 20
 #  - name: Obsarray
 #      parent: tools
 #      url: tools/obsarray/
