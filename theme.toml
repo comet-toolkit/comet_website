@@ -1,9 +1,8 @@
 name = "Research Group"
-license = "MIT"
+license = "GNU "
 licenselink = "https://github.com/wowchemy/starter-hugo-research-group/blob/main/LICENSE.md"
 description = "The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form."
-homepage = "https://github.com/wowchemy/starter-hugo-research-group"
-demosite = "https://research-group.netlify.app/"
+homepage = "https://github.com/comet-toolkit/comet_website"
 tags = ["academic",
         "university",
         "research",
@@ -37,5 +36,4 @@ features = ["page builder", "widgets", "themes", "search", "research publication
             "blog", "create courses", "talks", "events", "slides", "gallery", "contact form"]
 
 [author]
-  name = "George Cushen"
-  homepage = "https://georgecushen.com"
+  name = "Pieter De Vis"
