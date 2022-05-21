@@ -7,24 +7,25 @@ main:
   - name: Tour
     url: tour
     weight: 10
-  - name: Tools
+  - name: Overview
+    parent: Tools
     url: tools
     weight: 20
   - name: Obsarray
     parent: Tools
     url: tools/obsarray/
-    weight: 20
+    weight: 21
   - name: Punpy
     parent: Tools
     url: tools/punpy/
-    weight: 20
+    weight: 22
   - name: Comet_math
     parent: Tools
     url: tools/comet_math/
-    weight: 20
+    weight: 23
   - name: Examples
     url: examples
-    weight: 20
+    weight: 29
   - name: News
     url: post
     weight: 30
