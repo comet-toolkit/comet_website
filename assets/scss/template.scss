@@ -9,8 +9,8 @@
 }
 
 .logo-image{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: -6px;
@@ -23,6 +23,14 @@
     height: -webkit-fill-available;
     height: -webkit-stretch;
     height: stretch;
-    max-height: 150px;
+    max-height: 120px;
     max-width: fit-content;
+}
+
+.navbar {
+    height: 100px;
+    background: #fff;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 11%);
+    font-size: 16.17px;
+    padding: 0 1rem;
 }
