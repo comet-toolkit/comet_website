@@ -8,11 +8,10 @@
   justify-content: center;
 }
 
-.toplogo {
-    margin-top: 5px;
-}
-
-.toplogo img {
-    height : 30%;
-    width : 30%;
+.logo-image{
+    width: 146px;
+    height: 146px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
 }
