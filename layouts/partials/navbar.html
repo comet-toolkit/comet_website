@@ -22,8 +22,8 @@
         <a class="navbar-brand" href="{{ "/" | relLangURL }}">
           {{- if $has_logo -}}
             <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}"
-            {{with site.Params.header.image.width}}width="{{.}}"{{end}}
-            {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
+            {{with site.Params.header.image.width}}width="{{2000.0}}"{{end}}
+            {{with site.Params.header.image.height}}height="{{2000.0}}"{{end}}>
           {{- else -}}
             {{- site.Title -}}
           {{- end -}}
@@ -43,8 +43,8 @@
         <a class="navbar-brand" href="{{ "/" | relLangURL }}">
         {{- if $has_logo -}}
           <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}"
-          {{with site.Params.header.image.width}}width="{{.}}"{{end}}
-          {{with site.Params.header.image.height}}height="{{200.}}"{{end}}>
+          {{with site.Params.header.image.width}}width="{{2000.0}}"{{end}}
+          {{with site.Params.header.image.height}}height="{{2000.0}}"{{end}}>
         {{- else -}}
           {{- site.Title -}}
         {{- end -}}
