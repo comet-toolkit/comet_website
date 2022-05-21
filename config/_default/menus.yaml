@@ -6,19 +6,19 @@
 main:
   - name: Tools
     weight: 10
-  - name: Overview
+  - name: overview
     parent: Tools
     url: tools
     weight: 20
-  - name: Obsarray
+  - name: obsarray
     parent: Tools
     url: tools/obsarray/
     weight: 21
-  - name: Punpy
+  - name: punpy
     parent: Tools
     url: tools/punpy/
     weight: 22
-  - name: Comet_math
+  - name: comet_math
     parent: Tools
     url: tools/comet_math/
     weight: 23
