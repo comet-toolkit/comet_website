@@ -16,14 +16,14 @@
 <header class="header--fixed">
   <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
     <div class="container-xl">
-      hereitbreaks
+
       {{if $show_logo}}
       <div class="d-none d-lg-inline-flex">
         <a class="navbar-brand" href="{{ "/" | relLangURL }}">
           {{- if $has_logo -}}
             <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}"
-            {{with site.Params.header.image.width}}width="{{2000.0}}"{{end}}
-            {{with site.Params.header.image.height}}height="{{2000.0}}"{{end}}>
+            {{with site.Params.header.image.width}}width="{{.}}"{{end}}
+            {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
           {{- else -}}
             {{- site.Title -}}
           {{- end -}}
@@ -43,8 +43,8 @@
         <a class="navbar-brand" href="{{ "/" | relLangURL }}">
         {{- if $has_logo -}}
           <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}"
-          {{with site.Params.header.image.width}}width="{{2000.0}}"{{end}}
-          {{with site.Params.header.image.height}}height="{{2000.0}}"{{end}}>
+          {{with site.Params.header.image.width}}width="{{.}}"{{end}}
+          {{with site.Params.header.image.height}}height="{{.}}"{{end}}>
         {{- else -}}
           {{- site.Title -}}
         {{- end -}}
