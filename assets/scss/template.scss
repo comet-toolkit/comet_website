@@ -9,11 +9,12 @@
 }
 
 .logo-image{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: -6px;
+    margin-bottom: 20px;
 }
 
 .navbar-brand img {
@@ -22,6 +23,6 @@
     height: -webkit-fill-available;
     height: -webkit-stretch;
     height: stretch;
-    max-height: 100px;
+    max-height: 150px;
     max-width: fit-content;
 }
