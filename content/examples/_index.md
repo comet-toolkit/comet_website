@@ -3,7 +3,7 @@ widget: blank
 headless: true
 
 # ... Put Your Section Options Here (title etc.) ...
-title: My New Section
+title: Examples
 subtitle:
 weight: 10  # section position on page
 design:
@@ -11,18 +11,7 @@ design:
   columns: '1'
 ---
 
-***This is a basic mardown page***
+In this section, we provide links to jupyter notebooks with examples on how to use the CoMet toolkit.
+Each of these notebooks is hosted on Google Colab. 
 
-**obsarray**
-
-balblabla
-
-
-**punpy**
-
-blablabla
-
-**comet_math**
-
-blablabla
-
+First, there are some examples 

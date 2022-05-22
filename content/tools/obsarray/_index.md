@@ -3,7 +3,7 @@ widget: blank
 headless: true
 
 # ... Put Your Section Options Here (title etc.) ...
-title: Obsarray
+title: obsarray
 subtitle:
 weight: 10  # section position on page
 design:
