@@ -14,4 +14,12 @@ design:
 In this section, we provide links to jupyter notebooks with examples on how to use the CoMet toolkit.
 Each of these notebooks is hosted on Google Colab. 
 
-First, there are some examples 
+First, there are some examples for using punpy as a standalone package. 
+
+Some general use cases can be found [here](https://colab.research.google.com/github/comet-toolkit/punpy/blob/master/training/punpy_standalone_example.ipynb).
+Next, we also show some [validation examples](https://colab.research.google.com/github/comet-toolkit/punpy/blob/master/training/NIST_example.ipynb), where the punpy results are compared against the NIST uncertainty machine. 
+
+Next, a jupyter notebook is provided for [using obsarray](https://colab.research.google.com/github/comet-toolkit/punpy/blob/master/training/obsarray_example.ipynb).
+
+Finally, we also provide an [example of using punpy with digital effects tables created with obsarray](https://colab.research.google.com/github/comet-toolkit/punpy/blob/master/training/digital_effects_table_example.ipynb).
+
