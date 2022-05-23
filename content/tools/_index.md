@@ -3,7 +3,7 @@ widget: blank
 headless: true
 
 # ... Put Your Section Options Here (title etc.) ...
-title: ComMet Toolkit overview
+title: CoMet Toolkit overview
 subtitle: 
 weight: 10  # section position on page
 design:
