@@ -13,10 +13,8 @@ design:
 
 The Comet Toolkit currently consists of two core modules:
 
-*obsarray* is an extension to xarray for defining, storing and interfacing with uncertainty information in NetCDF files using standardised metadata.
 
-*punpy* is a tool for “Propagation of UNcertainties in Python”. It propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output. These input data uncertainties can be defined using obsarray.
- 
+
 These modules are installable via pip. More modules are planned to extend the toolkit capabilities.
 
 

@@ -4,12 +4,15 @@ headless: true
 
 # ... Put Your Section Options Here (title etc.) ...
 title: punpy
-subtitle: Propagating UNcertainties in PYthon
+subtitle:
 weight: 10  # section position on page
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
 ---
+
+*punpy* is a tool for “Propagation of UNcertainties in Python”. It propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output. These input data uncertainties can be defined using obsarray.
+ 
 
 Datasets need to have uncertainty information associated with them to ensure their credible and reliable interpretation. However, this uncertainty information can be rather complex, with many sources of error affecting the final products. Often, multiple measurements are combined throughout the processing chain (e.g. performing temporal or spatial averages). In such cases, it is key to understand error-covariances in the data (e.g., random uncertainties do not combine in the same way as systematic uncertainties). 
 
