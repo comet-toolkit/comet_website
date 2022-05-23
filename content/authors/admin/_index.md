@@ -6,8 +6,7 @@ title: Pieter De Vis
 superuser: true
 
 # Role/position
-role: Higher Research Scientist
-
+role: Higher Research Scientist, NPL
 # Organizations/Affiliations
 organizations:
   - name: National Physical Laboratory

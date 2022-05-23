@@ -18,7 +18,7 @@ content:
   email: team@comet-toolkit.org
   # phone: 888 888 88 88
   address:
-    street: Hampton Rd
+    street: NPL, Hampton Rd
     city: Teddington
     region: London
     postcode: 'TW11 0LW'
