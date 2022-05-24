@@ -17,7 +17,9 @@ Datasets need to have uncertainty information associated with them to ensure the
 
 [QA4EO](https://qa4eo.org/) ensures credible and reliable interpretation of environmental observations from satellites and in-situ measurements by requiring that associated uncertainty information is provided. It is also key to understand error-covariances in the data (e.g., separate handling of random and systematic uncertainties).
 
-The approaches definekd within QA4EO enable the Earth observation (EO) community to develop quantitative characterisation of uncertainty in EO data. However, practically implementing these methods is not trivial and can be time consuming. To facilitate this, the CoMet Toolkit was developed to provide a means to store and propagate uncertainty and error-correlation information. These tools allow the user to rely on quality-assured code, rather than having to reinvent the wheel, and lower the barrier to entry for users new to handling uncertainties.
+The approaches defined within QA4EO enable the Earth observation (EO) community to develop quantitative characterisation of uncertainty in EO data. However, practically implementing these methods is not trivial and can be time consuming. To facilitate this, **the CoMet Toolkit was developed to provide a means to store and propagate uncertainty and error-correlation information**. These tools allow the user to rely on quality-assured code, rather than having to reinvent the wheel, and lower the barrier to entry for users new to handling uncertainties.
+
+Please have a look in the [tools section](tools) for information on the individual tools and the [example section](examples) for some examples on how to use the toolkit. 
 
 The team gratefully acknowledge funding from NPL and the QA4EO project.
 
