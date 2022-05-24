@@ -21,5 +21,5 @@ The approaches definekd within QA4EO enable the Earth observation (EO) community
 
 The team gratefully acknowledge funding from NPL and the QA4EO project.
 
-{{< figure src="icons/QA4EO_logo_medium.png" alt="QA4EO logo" height="100">}} {{< figure src="icons/national-physical-laboratory-npl-logo.png" alt="NPL logo" height="50">}}
+{{< figure src="icons/QA4EO_logo_medium.png" alt="QA4EO logo" width="250">}} {{< figure src="icons/national-physical-laboratory-npl-logo.png" alt="NPL logo" width="250">}}
 
