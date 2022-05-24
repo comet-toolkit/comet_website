@@ -21,5 +21,6 @@ The approaches defined within QA4EO enable the Earth observation (EO) community 
 
 The team gratefully acknowledge funding from NPL and the QA4EO project.
 
-<img src="icons/QA4EO_logo_medium.png" alt="QA4EO logo" height="100"/> <img src="icons/national-physical-laboratory-npl-logo.png" alt="NPL logo" height="100"/>
+{{<img src="icons/QA4EO_logo_medium.png" alt="QA4EO logo" height="100"> }}
+{{<img src="icons/national-physical-laboratory-npl-logo.png" alt="NPL logo" height="100">}}
 
