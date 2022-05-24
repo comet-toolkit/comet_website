@@ -3,7 +3,7 @@ widget: blank
 headless: true
 
 # ... Put Your Section Options Here (title etc.) ...
-title: CoMet Toolkit overview
+title: About
 subtitle: 
 weight: 10  # section position on page
 design:
@@ -21,3 +21,5 @@ The approaches defined within QA4EO enable the Earth observation (EO) community 
 
 The team gratefully acknowledge funding from NPL and the QA4EO project.
 
+![QA4EO logo](icons/QA4EO_logo_medium.png)
+![NPL logo](icons/national-physical-laboratory-npl-logo.png)
