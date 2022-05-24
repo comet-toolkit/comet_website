@@ -12,7 +12,9 @@ design:
 ---
 
 *punpy* is a tool for “Propagation of UNcertainties in Python”. It propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output. These input data uncertainties can be defined using obsarray.
- 
+ The punpy documentation is available [here](https://punpy.readthedocs.io/en/latest/), including some examples for [standalone punpy](https://punpy.readthedocs.io/en/latest/content/examples_standalone.html) and for [using punpy with the digital effects tables](https://punpy.readthedocs.io/en/latest/content/examples_digital_effects_table.html).
+There are also jupyter notebooks available in the [example section](/examples).
+
 
 When data is processed through a processing chain (or through a measurement function in metrological terms), the uncertainties on the input quantities need to be propagated to the ouputs (the measurand). This uncertainty propagation needs to take into account error-correlation information. Standard metrological (science of measurement) methods from the Guide to the expression of Uncertainty in Measurement (GUM) can be used to propagate the uncertainties from the input quantities to uncertainties on the measurand (the processed data). 
 
@@ -21,5 +23,3 @@ Punpy aims to make this simple for users. It allows users to propagate uncertain
 Punpy can be used as a standalone tool, or in combination with obsarray digital effects tables. When using punpy as a standalone tool, the input quantities and their uncertainties are manually specified.
 Alternatively, digital effects tables defined with obsarray can be used. punpy and obsarray have been designed to interface with each other. All the uncertainty information in the obsarray products can be automatically parsed and passed to punpy. A typical approach would be to separately propagate the random uncertainties (potentially multiple components combined), systematic uncertainties and structured uncertainties, and return them as an obsarray dataset that contains the measurand, the uncertainties and the covariance information of the measurand. By combining these tools, handling uncertainties and covariance information has become as straightforward as possible, without losing flexibility. 
 
-The punpy documentation is available [here](https://punpy.readthedocs.io/en/latest/), including some examples for [standalone punpy](https://punpy.readthedocs.io/en/latest/content/examples_standalone.html) and for [using punpy with the digital effects tables](https://punpy.readthedocs.io/en/latest/content/examples_digital_effects_table.html).
-There are also jupyter notebooks available [here](/examples).
