@@ -44,6 +44,9 @@ header:
     width: 400px
     height: 400px
 
+body:
+  text-align: justify
+
 
 footer:
   copyright:
