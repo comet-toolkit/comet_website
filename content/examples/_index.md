@@ -17,10 +17,10 @@ Each of these notebooks is hosted on Google Colab.
 **Punpy as a Standalone Package**
 
 * Some general use cases can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_standalone_example.ipynb).
-* Next, we also show some [validation examples](https://colab.research.google.com/github/pdevis/punpy/blob/master/esa_example.ipynb), where the punpy results are compared against the NIST uncertainty machine. 
+* Next, we also show some [validation examples](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/NIST_example.ipynb), where the punpy results are compared against the NIST uncertainty machine. 
 
 **Digital Effects Tables** 
 
-* Next, a jupyter notebook is provided for [defining a digital effects tables](https://colab.research.google.com/github/comet-toolkit/punpy/blob/master/training/defining_digital_effects_table.ipynb) and [using obsarray](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/obsarray_example.ipynb).
-* Finally, we also provide an [example of using punpy with digital effects tables created with obsarray](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/digital_effects_table_example.ipynb).
+* Next, a jupyter notebook is provided for [defining a digital effects tables](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/master/training/defining_digital_effects_table.ipynb) and [using obsarray](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/obsarray_example.ipynb).
+* Finally, we also provide an [example of using punpy with digital effects tables created with obsarray](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_digital_effects_table_example.ipynb).
 
