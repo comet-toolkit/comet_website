@@ -11,8 +11,6 @@ design:
   columns: '1'
 ---
 
-**Background**
-
 Datasets need to have uncertainty information associated with them to ensure their credible and reliable interpretation. However, this uncertainty information can be rather complex, with many sources of error affecting the final products. Often, multiple measurements are combined throughout the processing chain (e.g. performing temporal or spatial averages). In such cases, **it is key to understand error-covariances in measurement data** (e.g., random uncertainties do not combine in the same way as systematic uncertainties). 
 
 [QA4EO](https://qa4eo.org/) ensures credible and reliable interpretation of environmental observations from satellites and in-situ measurements by requiring that associated uncertainty information is provided. It is also key to understand error-covariances in the data (e.g., separate handling of random and systematic uncertainties).
