@@ -19,7 +19,10 @@ The approaches defined within QA4EO enable the Earth observation (EO) community 
 
 Please have a look in the [tools section](/tools) for information on the individual tools and the [example section](/examples) for some examples on how to use the toolkit. 
 
-The team gratefully acknowledge funding from NPL and the QA4EO project.
+The CoMet Toolkit has been developed at NPL and has been funded by:
+
+* The UK's Department for Business, Energy and Industrial Strategy's (BEIS) National Measurement System (NMS) programme
+* The IDEAS-QA4EO project funded by the European Space Agency.
 
 {{< figure src="icons/QA4EO_logo_medium.png" alt="QA4EO logo" width="250">}} {{< figure src="icons/national-physical-laboratory-npl-logo.png" alt="NPL logo" width="250">}}
 
