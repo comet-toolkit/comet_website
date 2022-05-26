@@ -5,7 +5,7 @@ image:
   focal_point: 'top'
 ---
 
-A Poster on the CoMet toolkit is presented during day 4 of the Living Planet Symposium
+A Poster on the CoMet toolkit is presented during day 4 of the Living Planet Symposium.
 
 <!--more-->
 
