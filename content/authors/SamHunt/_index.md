@@ -41,12 +41,15 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:sam.hunt@npl.co.uk'
-  - icon: twitter
-    icon_pack: fab
-    link: 
+#  - icon: twitter
+#    icon_pack: fab
+#    link: 
+  - icon: researchgate
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/Samuel-Hunt
   - icon: google-scholar
     icon_pack: ai
-    link: 
+    link: https://scholar.google.com/citations?user=4uBgpCEAAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/shunt16
