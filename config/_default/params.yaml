@@ -50,7 +50,7 @@ body:
 
 footer:
   copyright:
-    notice: '© {year} NPL. This work is licensed under {license}'
+    notice: '© {year} NPL. This work is licensed under GNU LGPL-3.0'
     license:
       enable: false
       allow_derivatives: true
