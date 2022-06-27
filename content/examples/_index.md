@@ -21,6 +21,6 @@ Each of these notebooks is hosted on Google Colab.
 
 **Digital Effects Tables** 
 
-* Next, a jupyter notebook is provided for [defining a digital effects tables](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/master/training/defining_digital_effects_table.ipynb) and [using obsarray](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/obsarray_example.ipynb).
+* Next, a jupyter notebook is provided for [defining a digital effects tables](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/defining_digital_effects_table.ipynb) and [using obsarray](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/obsarray_example.ipynb).
 * Finally, we also provide an [example of using punpy with digital effects tables created with obsarray](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_digital_effects_table_example.ipynb).
 
