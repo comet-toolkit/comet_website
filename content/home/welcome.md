@@ -22,4 +22,4 @@ design:
 
 <br>
 
-The **CoMet Toolkit** is an open-source software project to develop Python tools for the handling of error-covariance information in the analysis of measurement data.
+The **CoMet Toolkit** (Community Metrology Toolkit) is an open-source software project to develop Python tools for the handling of error-covariance information in the analysis of measurement data.
