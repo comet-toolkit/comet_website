@@ -21,10 +21,10 @@ main:
     parent: Tools
     url: tools/punpy/
     weight: 22
-#  - name: comet_math
-#    parent: Tools
-#    url: tools/comet_math/
-#    weight: 23
+  - name: comet_maths
+    parent: Tools
+    url: tools/comet_maths/
+    weight: 23
   - name: Examples
     url: examples
     weight: 29
