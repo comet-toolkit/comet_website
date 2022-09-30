@@ -16,7 +16,9 @@ Each of these notebooks is hosted on Google Colab.
 
 **Punpy as a Standalone Package**
 
-* Some general use cases can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_standalone_example.ipynb).
+* Some general use cases can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_standalone_example_overview.ipynb).
+* We then also have some more examples specific to the Monte Carlo method [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_standalone_example_MCdetail.ipynb).
+* As well as for the Law of Propagation of uncertainty method [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_standalone_example_LPUdetail.ipynb).
 * Next, we also show some [validation examples](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/NIST_example.ipynb), where the punpy results are compared against the NIST uncertainty machine. 
 
 **Digital Effects Tables** 
