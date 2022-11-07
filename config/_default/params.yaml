@@ -18,8 +18,8 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'An open-source software project to develop Python tools for the handling of error-covariance information in the analysis of measurement data.'
+    twitter: 'CoMet'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
