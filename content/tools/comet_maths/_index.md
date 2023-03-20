@@ -11,7 +11,7 @@ design:
   columns: '1'
 ---
 
-*comet_maths* is a python module with useful mathematical algorithms for general use as well as for the other tools in the comet toolkit.
+*comet_maths* is a python module with useful mathematical algorithms (including interpolation with uncertainties) for general use as well as for use in the other tools in the CoMet toolkit.
 The *comet_maths* documentation is available [here](https://comet_maths.readthedocs.io/en/latest/).
 There are also jupyter notebooks available in the [example section](/examples).
 
