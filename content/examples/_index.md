@@ -30,6 +30,6 @@ Each of these notebooks is hosted on Google Colab.
 
 
 **Project specific examples**
-* HYPERNETS example: [hypernets surface reflectance calculation](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/hypernets_surface_reflectance.ipynb).
+* HYPERNETS example: [LANDHYPERNET surface reflectance calculation](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/hypernets_surface_reflectance.ipynb).
 * FDR4ATMOS example: [propagating uncertainties to SCIAMACHY irradiance](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/sciamachy_processing.ipynb).
 
