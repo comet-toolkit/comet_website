@@ -27,3 +27,9 @@ Each of these notebooks is hosted on Google Colab.
 
 **Comet_maths interpolation** 
 * Finally, there is a jupyter notebook for [interpolation with uncertainties](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/interpolation_example.ipynb).
+
+
+**Project specific examples**
+* HYPERNETS example: [hypernets surface reflectance calculation](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/hypernets_surface_reflectance.ipynb).
+* FDR4ATMOS example: [propagating uncertainties to SCIAMACHY irradiance](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/sciamachy_processing.ipynb).
+
