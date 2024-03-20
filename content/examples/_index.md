@@ -30,5 +30,5 @@ Each of these notebooks is hosted on Google Colab.
 
 
 **Project specific examples**
-* HYPERNETS example: [LANDHYPERNET surface reflectance calculation and satellite band integration](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/hypernets_surface_reflectance.ipynb).
+* HYPERNETS example: [LANDHYPERNET flags and uncertainty propagation (through band integration over S2 SRF)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/hypernets_surface_reflectance.ipynb).
 
