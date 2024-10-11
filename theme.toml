@@ -2,8 +2,10 @@ name = "CoMet Toolkit"
 license = "GNU LGPL-3.0"
 licenselink = "https://github.com/comet-toolkit/comet_website/blob/main/LICENSE.md"
 description = "The **CoMet toolkit**, which stands for “Community Metrology Toolkit”, which has been developed to enable easy handling and processing of dataset error-covariance information. This toolkit aims to abstract away some of the complexities in dealing with covariance information."
+
 homepage = "https://github.com/comet-toolkit/"
 demosite = "https://research-group.netlify.app/"
+
 tags = ["academic",
         "university",
         "research",
@@ -33,6 +35,7 @@ tags = ["academic",
         "technical",
         "slide"
         ]
+
 features = ["page builder", "widgets", "themes", "search", "research publication system", "filterable portfolio",
             "blog", "create courses", "talks", "events", "slides", "gallery", "contact form"]
 
