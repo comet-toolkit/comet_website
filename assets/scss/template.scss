@@ -1,0 +1,37 @@
+// Make page header alignment consistent with widget page header alignment
+.universal-wrapper h1 {
+    text-align: center;
+  }
+  
+  // Center the CTA shortcode button
+  .cta-group {
+    justify-content: center;
+  }
+  
+  .logo-image{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-top: -6px;
+      margin-bottom: 20px;
+  }
+  
+  .navbar-brand img {
+      width: auto;
+      height: -moz-available;
+      height: -webkit-fill-available;
+      height: -webkit-stretch;
+      height: stretch;
+      max-height: 120px;
+      max-width: fit-content;
+  }
+  
+  .navbar {
+      height: 80px;
+      padding: 0 1rem;
+  }
+  
+  .universal-wrapper h1 {
+      text-align: left;
+  }
