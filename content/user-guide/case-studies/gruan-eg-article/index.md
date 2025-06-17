@@ -15,19 +15,19 @@ image:
 
 ## 🎈 Background
 
-**Global Climate Observing System (GCOS)** ensures access to long-term climate observations. Within GCOS, the **GCOS Reference Upper-Air Network (GRUAN)** plays a key role by providing reference-quality atmospheric balloon data.
+**Global Climate Observing System ([GCOS](https://gcos.wmo.int/site/global-climate-observing-system-gcos))** ensures access to long-term climate observations. Within GCOS, the **GCOS Reference Upper-Air Network ([GRUAN](https://www.gruan.org/))** plays a key role by providing reference-quality atmospheric balloon data.
 
 GRUAN data includes measurements such as temperature, humidity and pressure. This data is traceable to SI standards, and published with detailed uncertainty and metadata. At present, GRUAN does not report detailed error correlation across its data products. 
 
 This article outlines a study which has successfully deployed **CoMet Toolkit** to acquire covariance information of GRUAN data.
 
-## 🗸 Aims
+### 🗸 Aims
 
 1. Investigate GRUAN data product **uncertainty components**.
 2. Obtain covariance matrices for **temperature (T)** and **relative humidity (RH)**.
 3. Assess how different **data processing** strategies impact covariance.
 
-# 📋 Data
+## 📋 Data
 
 GRUAN data is gathered via **radiosondes** mounted on weather balloons, recording vertical atmospheric profiles at high resolution (1–2 seconds per point) reaching altitudes of 30–35 km.
 
@@ -35,7 +35,9 @@ We selected two radiosonde launches from **Lindenberg, Germany** (GRUAN’s lead
 
 Each balloon ascent collects thousands of measurements. To reduce the number of data points, this data is typically layered. For instance, **137-layer ECMWF pressure coordinate system**, is commonly used in atmospheric modelling.
 
-## 🗸 Uncertainties
+![Balloon ascent processing](layer_diagram.png)
+
+### 🗸 Uncertainties
 
 For each measurement point, GRUAN reports the combined uncertainty as well as three uncertainty components:
 
@@ -45,13 +47,15 @@ For each measurement point, GRUAN reports the combined uncertainty as well as th
 
 GRUAN assumes full (r = 1) correlation for spatial and temporal components—an important simplification carried into the analysis.
 
-## CoMet Setup
+![GRUAN Correlation Types](correlation_diagram.png)
+
+## ☄️CoMet Setup
 
 Covariance and correlation matrices were calculated using **CoMet**.
-- `obsarray`: Structures uncertainty metadata,
-- `comet_maths`: Performs the linear algebra to compute covariance matrices.
+- `obsarray`: used to re-structure weather balloon measurements, their uncertainty, and metadata (units, dimensions)
+- `comet_maths`: performed the mathematical operations to compute covariance matrices, correlation information
 
-## Results
+## 🗂️ Results
 
 Using CoMet, raw covariance matrices were computed from the unprocessed midday profile.  
 - **Temperature** and **RH** matrices show strong diagonals (variance) and structured off-diagonal patterns (systematic uncertainty).
@@ -64,9 +68,9 @@ In layered heatmaps:
 
 Notably, the **Upper Troposphere–Lower Stratosphere (UTLS)** region exhibits distinct covariance patterns.
 
-![Layered Covariance - Temperature](images/layered_temperature_covariance.png)
+![Layered Covariance - Temperature](temperature.png)
 
-## Results: Layered Relative Humidity Covariance
+### 🗸 Layered Relative Humidity Covariance
 
 Layered RH matrices differ significantly:
 - Covariance values are up to **100× greater** than for temperature.
@@ -75,9 +79,9 @@ Layered RH matrices differ significantly:
 
 These findings underscore the need to treat RH and temperature differently in uncertainty-aware models.
 
-![Layered Covariance - Relative Humidity](images/layered_rh_covariance.png)
+![Layered Covariance - Relative Humidity](rh.png)
 
-## Summary of Findings
+### 🗸 Summary of Findings
 
 This project:
 - Developed and validated a method for **computing covariance matrices** from GRUAN RS-41 data using **CoMet**,
@@ -86,7 +90,7 @@ This project:
 
 The results help researchers better account for correlated uncertainty when working with radiosonde data.
 
-## Future Work
+### 🗸 Future Work
 
 Planned next steps include:
 - Incorporating **Tier 2** uncertainty sources,
