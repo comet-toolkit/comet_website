@@ -5,6 +5,7 @@ date: 2024-03-19
 
 authors:
   - admin
+  - RasmaOrmane
 tags:
   - CoMet
   - punpy
@@ -15,7 +16,7 @@ image:
     caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-Bellow, we have compiled a list of relevant examples and linked their corresponding jupyther notebooks with detailed comentary. All the available tools can be used on their own or in conjunction with other modules. For additional information regarding individual packages, refer to the signposted sources throughout the website. 
+Below, we have compiled a list of relevant examples and linked their corresponding jupyter notebooks with detailed commentary. All the available tools can be used on their own or in conjunction with other modules. For additional information regarding individual packages, refer to the signposted sources throughout the website. 
 
 ## 📦 Punpy as a Standalone Package
 
@@ -23,7 +24,7 @@ Bellow, we have compiled a list of relevant examples and linked their correspond
 
 An example showcasing the capabilitites of the [punpy]({{< relref "/tools/punpy" >}}) package can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_standalone_example_overview.ipynb).
 
-This jupyther notebook covers the following concepts:
+This jupyter notebook covers the following concepts:
 
   1. **Calibration** of L0 data to L1
   2. Propagation of various types of uncertainties:
@@ -82,8 +83,8 @@ This example covers the following concepts:
     1. Linear
     2. Quadratic
     3. Cubic
-  - **Unknown** input uncertainties (i.e. only model uncertainties)
-  - **Known** measurmeent uncertainties
+  - **Unknown** input uncertainties (e.g. model uncertainties)
+  - **Known** measurment uncertainties
   - Monte Carlo uncertainty propagation
   - Extrapolation
   - 1D interpolation along high-resolution example

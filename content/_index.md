@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: CoMet
-      text: Be certain in your uncertainties!
+      text: Uncertainties made easy!
       primary_action:
         text: Get Started
         url: user-guide/getting-started
@@ -26,7 +26,7 @@ sections:
           url: "latest-news/"
     design:
       spacing:
-        padding: [0, 0, 0, 0]
+        padding: [300, 100, 300, 100]
         margin: [0, 0, 0, 0]
       # For full-screen, add `min-h-screen` below
       css_class: "dark"
@@ -66,7 +66,8 @@ sections:
           text: An open-source software project for assessing data uncertainties.
           feature_icon: check
           features:
-            - "Handle, process & store measurement uncertainties"
+            - "Handle, propagate & store measurement uncertainties"
+            - "Take into account error-correlation information"
           # Upload image to `assets/media/` and reference the filename here
           image: build-website.png
           caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
@@ -80,17 +81,18 @@ sections:
       title: Tools
       text: A list of tools which abstract away the complexity of dealing with uncertainties.
       items:
-        - name: comet_maths
+        - name: punpy
           icon: code-bracket
+          description: propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output
+          url: tools/punpy     
+        - name: obsarray
+          icon: custom/obsarray
+          description: an extension to xarray for defining, storing and interfacing with uncertainty and measurement error-covariance information in NetCDF files using standardised metadata
+          url: tools/obsarray
+        - name: comet_maths
+          icon: sparkles
           description: useful mathematical algorithms, including interpolation with uncertainties
           url: tools/comet_maths
-        - name: punpy
-          icon: star
-          description: propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output
-        - name: obsarray
-          icon: sparkles
-          description: an extension to xarray for defining, storing and interfacing with uncertainty and measurement error-covariance information in NetCDF files using standardised metadata
-
     design:
     #   # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -120,7 +122,8 @@ sections:
           text: CoMet can be used to
           feature_icon: bolt
           features:
-            - "Quantify uncertainties"
+            - "Propagate uncertainties"
+            - "Handle error-correlation/error-covariance matrices"
             - "Create digital effects tables"
             - "Validate measurements"
           # Upload image to `assets/media/` and reference the filename here
