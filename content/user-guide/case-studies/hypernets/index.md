@@ -37,6 +37,8 @@ The raw data is provided as digital numbers, and combined with gains and non-lin
 The irradiance and radiance data are combined to calculate reflectance. 
 These data are stored in different product files from L0-L2B.
 
+![img.png](img.png)
+
 ## 🗸 Uncertainties
 Three uncertainty contributions are tracked throughout the
 processing.
