@@ -9,17 +9,15 @@ design:
 
 sections:
   - block: cta-image-paragraph
-    id: lps
+    id: about
     content:
       items:
-        - title: Hands-on training session at LPS
+        - title: Community Metrology Toolkit
           text: An open-source software project for handling data uncertainties.
           feature_icon: check
           features:
-            - "Uncertainties 101: some basic background on uncertainties and the CoMet toolkit"
-            - "[Exercise 1](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)"
-            - "[Exercise 2](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)"
-            - "[Exercise 3](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb)"
+            - "Handle, propagate & store measurement uncertainties"
+            - "Take into account error-correlation information"
           # Upload image to `assets/media/` and reference the filename here
           image: build-website.png
           caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
@@ -65,4 +63,5 @@ sections:
 [comment]: <> (            url: LPS_introduction_CoMet_toolkit.pdf)
 
 [comment]: <> (            icon: hero/download)
----
+
+[comment]: <> (---)
