@@ -4,13 +4,6 @@ title: Meet the Team
 
 type: landing
 
-#widget: people
-
-#headless: true
-
-#weight: 68
-
-
 sections:
 
   - block: resume-biography
@@ -75,3 +68,5 @@ sections:
         padding: [0, 0, 0, 0]
       biography:
         style: 'text-align: justify; font-size: 0.8em;'
+    
+---
