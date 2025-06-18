@@ -1,21 +1,19 @@
 # SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
-
 appearance:
-  theme_day: minimal
-  theme_night:
+  mode: light
+  color: indigo
   font: native
   font_size: L
 
 # SEO
-
 marketing:
   seo:
-    site_type: Organization
+    site_type: Organisation
     local_business_type: ''
     org_name: ''
     description: 'An open-source software project to develop Python tools for the handling of error-covariance information in the analysis of measurement data.'
@@ -28,91 +26,90 @@ marketing:
     baidu: ''
 
 # Site header
-
 header:
   navbar:
     enable: true
-    align: r
-    show_logo: true
-    show_language: false
+    blox: "navbar"
+    align: "center"
+    fixed_to_top: true
+    #show_logo: true
     show_day_night: true
-    show_search: false
+    logo:
+      text: ""
+      # Logo filename in `assets/media/` folder
+      filename: "logo.png"
+      width: 2732px
+      height: auto
+    button:
+      enable: false
+      text: "Get Started"
+      url: "https://hugoblox.com/templates/"
+    show_search: true
+    show_theme_chooser: true
     highlight_active_link: true
-
-
-  image:
-    width: 400px
-    height: 400px
+  # image:
+  #   width: 400px
+  #   height: 400px
 
 body:
   text-align: justify
 
-
+# Site footer
 footer:
   copyright:
-    notice: '© {year} NPL. This work is licensed under GNU LGPL-3.0'
-    license:
-      enable: false
-      allow_derivatives: true
-      share_alike: true
-      allow_commercial: true
+    notice: '© 2025 NPL. This work is licensed under GNU LGPL-3.0'
+
 
 # Localization
-
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
-  address_format: en-us
 
-# Site features
+social: []
+
+# # Site features
 
 features:
   syntax_highlighter:
-    enable: false
-    extra_languages:
-      - r
-      - latex
+   enable: false
+   extra_languages:
+     - r
+     - latex
   math:
-    enable: false
+   enable: false
   privacy_pack:
-    enable: false
-  repository:
-    url: 'https://github.com/<username>/<repository>'
-    content_dir: content
-    branch: main
+   enable: false
+  #repository:
+  #  url: 'https://github.com/<username>/<repository>'
+  #  content_dir: content
+  #  branch: main
   avatar:
-    gravatar: false
-    shape: circle
+   gravatar: false
+   shape: circle
   comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
+   provider: ''
+   disqus:
+     shortname: ''
+     show_count: true
+   commento:
+     url: ''
   search:
-    provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
+   provider: wowchemy
+   algolia:
+     app_id: ''
+     api_key: ''
+     index_name: ''
+     show_logo: false
   map:
-    provider: 'mapnik'
-    api_key: ''
-    zoom: 15
+   provider: 'mapnik'
+   api_key: ''
+   zoom: 15
 
 # Extensions
 
-extensions:
-  cms:
-    branch: main
-    local_backend: false
-  academicons:
-    enable: true
-
-# Citation style
-
-publications:
-  date_format: January 2006
-  citation_style: apa
+# extensions:
+#   cms:
+#     branch: main
+#     local_backend: false
+#   academicons:
+#     enable: true
