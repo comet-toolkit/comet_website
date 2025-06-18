@@ -20,12 +20,11 @@ sections:
             - "[Exercise 1](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)"
             - "[Exercise 2](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)"
             - "[Exercise 3](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb)"
-
           # Upload image to `assets/media/` and reference the filename here
           image: featured.jpg
           caption: 'Image credit: ESA'
           button:
-            text: download slides
-            url: LPS_introduction_CoMet_toolkit.pdf
-            icon: hero/download
+            text: Learn More
+            url: about/
+            icon: rocket-launch
 ---
