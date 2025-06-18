@@ -21,7 +21,7 @@ sections:
             - "[**Exercise 2**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)"
             - "[**Exercise 3**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb)"
           # Upload image to `assets/media/` and reference the filename here
-          image: featured.jpg
+          image: LPS.jpg
           caption: 'Image credit: ESA'
           button:
             text: download slides
