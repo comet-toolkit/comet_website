@@ -8,7 +8,8 @@ title: obsarray
 #   columns: '1'
 
 authors:
-  - admin
+  - SamHunt
+
 date: 2024-03-19
 ---
 
