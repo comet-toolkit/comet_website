@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Research Scientist, NPL
+role: Scientist, NPL
 
 # Organizations/Affiliations
 organizations:
