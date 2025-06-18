@@ -47,7 +47,7 @@ header:
       enable: false
       text: "Get Started"
       url: "https://hugoblox.com/templates/"
-    show_search: false
+    show_search: true
     show_theme_chooser: true
     highlight_active_link: true
   # image:
