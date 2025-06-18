@@ -63,7 +63,7 @@ sections:
     content:
       items:
         - title: Community Metrology Toolkit
-          text: An open-source software project for assessing data uncertainties.
+          text: An open-source software project for handling data uncertainties.
           feature_icon: check
           features:
             - "Handle, propagate & store measurement uncertainties"
@@ -86,7 +86,7 @@ sections:
           description: propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output
           url: tools/punpy     
         - name: obsarray
-          icon: custom/obsarray
+          icon: star
           description: an extension to xarray for defining, storing and interfacing with uncertainty and measurement error-covariance information in NetCDF files using standardised metadata
           url: tools/obsarray
         - name: comet_maths
