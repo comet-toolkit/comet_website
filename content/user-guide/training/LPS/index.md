@@ -8,6 +8,35 @@ design:
   spacing: "6rem"
 
 sections:
+  - block: hero
+    content:
+      title: CoMet
+      text: Uncertainties made easy!
+      primary_action:
+        text: Get Started
+        url: user-guide/getting-started
+        icon: rocket-launch
+      # secondary_action:
+      #   text: Read the docs
+      #   url: https://docs.hugoblox.com
+      announcement:
+        text: "For the latest updates"
+        link:
+          text: "click here"
+          url: "latest-news/"
+    design:
+      spacing:
+        padding: [300, 100, 300, 100]
+        margin: [0, 0, 0, 0]
+      # For full-screen, add `min-h-screen` below
+      css_class: "dark"
+      background:
+        color: "navy"
+        image:
+          # Add your image background to `assets/media/`.
+          filename: background.jpg
+          filters:
+            brightness: 0.5
   - block: cta-image-paragraph
     id: about
     content:
