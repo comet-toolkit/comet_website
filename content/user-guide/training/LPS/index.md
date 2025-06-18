@@ -12,7 +12,7 @@ sections:
     id: about
     content:
       items:
-        - title: Hands-on training session at LPS
+        - title: Community Metrology Toolkit
           text: An open-source software project for handling data uncertainties.
           feature_icon: check
           features:
