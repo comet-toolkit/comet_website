@@ -14,10 +14,6 @@ image:
   caption: 'Image credit: ESA'
 ---
 
-{{< cta-button “download slides” static/LPS_introduction_CoMet_toolkit.pdf>}}
-
-
-
 [Exercise 1](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)
 [Exercise 2](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)
 [Exercise 3](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb)
