@@ -1,41 +1,15 @@
-name = "CoMet Toolkit"
-license = "GNU LGPL-3.0"
-licenselink = "https://github.com/comet-toolkit/comet_website/blob/main/LICENSE.md"
-description = "The **CoMet toolkit**, which stands for “Community Metrology Toolkit”, which has been developed to enable easy handling and processing of dataset error-covariance information. This toolkit aims to abstract away some of the complexities in dealing with covariance information."
-homepage = "https://github.com/comet-toolkit/"
-demosite = "https://research-group.netlify.app/"
-tags = ["academic",
-        "university",
-        "research",
-        "publications",
-        "widgets",
-        "portfolio",
-        "responsive",
-        "clean",
-        "company",
-        "blog",
-        "events",
-        "minimal",
-        "light",
-        "dark",
-        "multilingual",
-        "landing page",
-        "contact form",
-        "mobile",
-        "search",
-        "presentation",
-        "simple",
-        "minimalist",
-        "starter",
-        "modern",
-        "one page",
-        "customizable",
-        "technical",
-        "slide"
-        ]
-features = ["page builder", "widgets", "themes", "search", "research publication system", "filterable portfolio",
-            "blog", "create courses", "talks", "events", "slides", "gallery", "contact form"]
+name = "Landing Page Builder"
+license = "MIT"
+licenselink = "https://github.com/HugoBlox/theme-landing-page/blob/main/LICENSE.md"
+description = "Easily build your landing page with pre-designed blocks. Create beautiful startup websites, marketing websites, and landing pages to accelerate your business growth."
 
+homepage = "https://github.com/HugoBlox/theme-landing-page"
+demosite = "https://theme-landing-page.netlify.app/"
+
+tags = ["landing", "docs", "blog", "responsive", "minimal", "light", "dark", "multilingual", "dark mode", "tailwind", "company", "gallery"]
+features = ["secure", "fast", "search", "dark mode", "widgets"]
+
+# If the theme has a single author
 [author]
-  name = "Pieter De Vis"
-  homepage = "https://www.comet-toolkit.org/author/pieter-de-vis/"
+  name = "George Cushen"
+  homepage = "https://georgecushen.com/"

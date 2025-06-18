@@ -1,42 +1,57 @@
 # Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
+#   To link a page section, specify the URL as a hash `/#` followed by the `id` of the section.
+#   The `weight` parameter defines the order that the links will appear in.
 
 main:
-  - name: About
-    url: about
-    weight: 5
-  - name: Tools
+  - name: Home
+    url: /#top
     weight: 10
-  - name: overview
-    parent: Tools
-    url: tools
+  - name: About
+    url: /about
     weight: 20
-  - name: obsarray
-    parent: Tools
-    url: tools/obsarray/
-    weight: 21
-  - name: punpy
-    parent: Tools
-    url: tools/punpy/
-    weight: 22
-  - name: comet_maths
-    parent: Tools
-    url: tools/comet_maths/
-    weight: 23
-  - name: Examples
-    url: examples
-    weight: 29
-  - name: News
-    url: post
+  - name: User Guide
+    url: /user-guide
+    weight: 40
+    hasChildren: true
+  - parent: User Guide
+    name: Getting Started
+    url:  user-guide/getting-started
+    weight: 41
+  - parent: User Guide
+    name: Examples
+    url: user-guide/examples/
+    weight: 45
+  - parent: User Guide
+    name: Theory
+    url:  user-guide/theory/
+    weight: 43
+  - parent: User Guide
+    name: Case Studies
+    url: user-guide/case-studies/
+    weight: 44
+  - parent: User Guide
+    name: Training
+    url: user-guide/training/
+    weight: 46
+  - name: Tools
+    url: /#tools
     weight: 30
+    hasChildren: true
+  - parent: Tools
+    name: comet_maths
+    url: tools/comet_maths
+    weight: 33
+  - parent: Tools
+    name: obsarray
+    url: tools/obsarray
+    weight: 32
+  - parent: Tools
+    name: punpy
+    url: tools/punpy
+    weight: 31
+  - name: News
+    url: latest-news
+    weight: 50
   - name: People
     url: people
-    weight: 40
-#  - name: Publications
-#    url: publication
-#    weight: 50
-#  - name: Contact
-#    url: contact
-#    weight: 60
+    weight: 60

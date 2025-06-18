@@ -38,17 +38,13 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
+  - icon: at-symbol
     link: 'mailto:pieter.de.vis@npl.co.uk'
-  - icon: researchgate
-    icon_pack: ai
+  - icon: academicons/researchgate
     link: https://www.researchgate.net/profile/Pieter-De-Vis
-  - icon: google-scholar
-    icon_pack: ai
+  - icon: academicons/google-scholar
     link: https://scholar.google.com/citations?user=O7SNRRcAAAAJ&hl=en
-  - icon: github
-    icon_pack: fab
+  - icon: brands/github
     link: https://github.com/pdevis
     
 # Link to a PDF of your resume/CV from the About widget.
@@ -65,6 +61,8 @@ social:
 user_groups:
   - Lead Developers
 ---
+
+Pieter De Vis is one of the lead developers of the CoMet toolkit. He implemented the [**punpy**](tools/punpy) and [**comet_maths**](tools/comet_maths) tools.
 
 Pieter De Vis works in the Climate and Earth Observation Group at the UK's National Physical Laboratory,where he focuses on atmospheric correction, satellite cal/val, the propagation of uncertainties through a measurement function, and uncertainties in model fitting. He is an experienced programmer and has developed many modular python tools for both internal and external use. He has applied this expertise to quantify uncertainties in various fields, including ocean color, greenhouse gases, and surface reflectances.
 
