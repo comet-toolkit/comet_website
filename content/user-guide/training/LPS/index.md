@@ -12,14 +12,15 @@ sections:
     id: about
     content:
       items:
-        - title: Hands-on training session at LPS
-          text: On this page we will provide links to the training material for the CoMet tutorial at ESA's Living Planet Symposium. The tutorial will include:
+        - title: Community Metrology Toolkit
+          text: An open-source software project for handling data uncertainties.
           feature_icon: check
           features:
-            - "Uncertainties 101: some basic background on uncertainties and the CoMet toolkit"
+            - "Handle, propagate & store measurement uncertainties"
+            - "Take into account error-correlation information"
           # Upload image to `assets/media/` and reference the filename here
-          image: featured.jpg
-          caption: 'Image credit: ESA'
+          image: build-website.png
+          caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
           button:
             text: Learn More
             url: about/
