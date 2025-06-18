@@ -22,9 +22,9 @@ tags:
 
 Welcome 👋
 
-In this brief guide we will walk you through the basic steps and prerequisists to get started with CoMet. 
+In this brief guide we will walk you through the basic steps and prerequisites to get started with CoMet. 
 
-## 1.💡 Get familiar with the toolkit and its capabilitites. 
+## 1.💡 Get familiar with the toolkit and its capabilities. 
 
 All the relevant information regarding the aims and functionality of CoMet Toolkit is outlined in the [**About Section**]({{< relref "/about" >}}). 
 
@@ -44,7 +44,7 @@ but more modules are planned to be developed and included in the future. For mor
 
 ## 2. 🗃️ Characterise the data/measurements that require the uncertainty propagation. 
 
-The main purpose of these tools, is to propagate uncertaintites. To do that, you must have an overall understanding of the type of data/measurements you are working with. 
+The main purpose of these tools, is to propagate uncertainties. To do that, you must have an overall understanding of the type of data/measurements you are working with. 
 
 For a general approach on determining an uncertainty budget, we refer to the 5-step QA4EO approach. See [this page](user-guide/theory/QA4EO) in our theory section, or the [QA4EO process document](https://qa4eo.org/docs/3_Process_Document.pdf).
 
@@ -108,7 +108,7 @@ After defining a measurement function, installing and importing all the relevant
 
 ### 🗸 Method breakdown
 
-A general overview of the various capabilitites and methods are combiled bellow. 
+A general overview of the various capabilities and methods are compiled bellow. 
 
   - store uncertainty and error correlation information
     1. machine readable digital effects tables

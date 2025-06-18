@@ -52,6 +52,9 @@ main:
   - name: News
     url: latest-news
     weight: 50
+  - name: Projects
+    url: projects
+    weight: 60
   - name: People
     url: people
-    weight: 60
+    weight: 70
