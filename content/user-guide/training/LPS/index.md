@@ -23,6 +23,4 @@ sections:
             text: download slides
             url: LPS_introduction_CoMet_toolkit.pdf
             icon: hero/download
-  
-  
-[pdf](/hugo/downloads/a.pdf)
+---
