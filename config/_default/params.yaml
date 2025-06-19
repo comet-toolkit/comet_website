@@ -13,17 +13,14 @@ appearance:
 # SEO
 marketing:
   seo:
-    site_type: Person
+    site_type: Organisation
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo landing page theme powered by Hugo Blox website builder.'
-    twitter: 'GetResearchDev'
+    description: 'An open-source software project to develop Python tools for the handling of error-covariance information in the analysis of measurement data.'
+    twitter: 'CoMet'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
   verification:
     google: ''
     baidu: ''
@@ -72,41 +69,41 @@ social: []
 
 # # Site features
 
-# features:
-#   syntax_highlighter:
-#     enable: false
-#     extra_languages:
-#       - r
-#       - latex
-#   math:
-#     enable: false
-#   privacy_pack:
-#     enable: false
-#   #repository:
-#   #  url: 'https://github.com/<username>/<repository>'
-#   #  content_dir: content
-#   #  branch: main
-#   avatar:
-#     gravatar: false
-#     shape: circle
-#   comment:
-#     provider: ''
-#     disqus:
-#       shortname: ''
-#       show_count: true
-#     commento:
-#       url: ''
-#   search:
-#     provider: wowchemy
-#     algolia:
-#       app_id: ''
-#       api_key: ''
-#       index_name: ''
-#       show_logo: false
-#   map:
-#     provider: 'mapnik'
-#     api_key: ''
-#     zoom: 15
+features:
+  syntax_highlighter:
+   enable: false
+   extra_languages:
+     - r
+     - latex
+  math:
+   enable: false
+  privacy_pack:
+   enable: false
+  #repository:
+  #  url: 'https://github.com/<username>/<repository>'
+  #  content_dir: content
+  #  branch: main
+  avatar:
+   gravatar: false
+   shape: circle
+  comment:
+   provider: ''
+   disqus:
+     shortname: ''
+     show_count: true
+   commento:
+     url: ''
+  search:
+   provider: wowchemy
+   algolia:
+     app_id: ''
+     api_key: ''
+     index_name: ''
+     show_logo: false
+  map:
+   provider: 'mapnik'
+   api_key: ''
+   zoom: 15
 
 # Extensions
 

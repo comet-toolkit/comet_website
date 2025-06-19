@@ -13,12 +13,12 @@ baseURL: 'https://www.comet-toolkit.org/' # Website URL
 cascade:
   # Blog post options
   - _target:
-      path: /blog/**
+      path: /**
       kind: page
     pager: true
     editable: true
     hide_date: false
-    show_date_updated: true
+    show_date_updated: false
     reading_time: true
     commentable: true
     show_related: false
@@ -27,10 +27,10 @@ cascade:
     show_breadcrumb: false
     header:
       navbar:
-        enable: false
+        enable: true
   # Blog section options
   - _target:
-      path: /blog/*
+      path: /tools/*
       kind: section
     # Set the listing view
     view: date-title-summary
