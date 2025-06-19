@@ -77,9 +77,9 @@ matrix between the different wavelengths.
 ## CoMet Setup
 The HYPERNETS_PROCESSOR uses a Monte Carlo (MC)
 approach, to propagate uncertainties and error-correlations
-between product levels. This MC approach is implemented using [**punpy**](tools/punpy/).
+between product levels. This MC approach is implemented using [**punpy**](/tools/punpy/).
 
-The HYPERNETS products themselves are stored as digital effects tables using [**obsarray**](tools/obsarray/).
+The HYPERNETS products themselves are stored as digital effects tables using [**obsarray**](/tools/obsarray/).
 
 ## Results
 An example of the propagated uncertainties on the HYPERNETS radiances is shown below. 
