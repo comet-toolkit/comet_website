@@ -28,7 +28,7 @@ These datasets that include standardised uncertainty and error-covariance inform
 ## 📍 Where can *obsarray* be found?
 
 - The *obsarray* documentation is available [here](https://obsarray.readthedocs.io/en/latest/).
-- There are also jupyter notebooks available in the [example section](user-guide/examples/).
+- There are also jupyter notebooks available in the [example section](/user-guide/examples/).
 
 ## 📋 What can *obsarray* tool be used for?
 

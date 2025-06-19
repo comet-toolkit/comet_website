@@ -46,7 +46,7 @@ but more modules are planned to be developed and included in the future. For mor
 
 The main purpose of these tools, is to propagate uncertainties. To do that, you must have an overall understanding of the type of data/measurements you are working with. 
 
-For a general approach on determining an uncertainty budget, we refer to the 5-step QA4EO approach. See [this page](user-guide/theory/QA4EO) in our theory section, or the [QA4EO process document](https://qa4eo.org/docs/3_Process_Document.pdf).
+For a general approach on determining an uncertainty budget, we refer to the 5-step QA4EO approach. See [this page](/user-guide/theory/QA4EO) in our theory section, or the [QA4EO process document](https://qa4eo.org/docs/3_Process_Document.pdf).
 
 To help you identify all the relevant information from your dataset, we have compiled a list of relevant questions and tips.
 
@@ -73,7 +73,7 @@ To help you identify all the relevant information from your dataset, we have com
   - ❔ Do you have a more complex processing chain using external software?
   - ❔ Can your measurement function be written as a Python function that has the input quantities as arguments, and returns the measurand? 
 
-  Read more about the importance and functionality of **measurement functions** in our page on [**propagating uncertainties through a measurement function**](user-guide/theory/processing-chains/).  
+  Read more about the importance and functionality of **measurement functions** in our page on [**propagating uncertainties through a measurement function**](/user-guide/theory/processing-chains/).  
 
 ### 🗸 Determining error correlation
 
@@ -83,7 +83,7 @@ As defined by this FIDUCEO article on ["The origin of error correlation"](https:
 
   > Correlation is a statistical measure of how two, or more, variables vary together.
 
-To learn more about error correlation structures and examples in the context of Earth Observations, refer our page on [error correlation and how to store it](user-guide/theory/error_correlation).
+To learn more about error correlation structures and examples in the context of Earth Observations, refer our page on [error correlation and how to store it](/user-guide/theory/error_correlation).
 
 ## 3. 🧾 Identify similarities between your specific requirements and the available examples.
 

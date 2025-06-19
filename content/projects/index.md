@@ -30,7 +30,7 @@ Here's the ever-growing list of the projects and organisations which have utilis
 
 🔗 **:Links:** [**HYPERNETS Website**](https://www.hypernets.eu/network/summary)
 
-☄️ **Involvement:** The CoMet toolkit is used within the HYPERNETS_processor to propagate uncertainties from lab calibration through each of its products. See also [this case study page](user-guide/case-studies/hypernets).
+☄️ **Involvement:** The CoMet toolkit is used within the HYPERNETS_processor to propagate uncertainties from lab calibration through each of its products. See also [this case study page](/user-guide/case-studies/hypernets).
 
 ![hypernets](hypernets.png)
 
@@ -162,6 +162,6 @@ Here's the ever-growing list of the projects and organisations which have utilis
 
 🔗 **Links:** [**GRUAN Website**](https://www.gruan.org/)
 
-☄️ **Involvement:** A case study where the CoMet Toolkit has been successfully implemented with GRUAN data to acquire covariance information of GRUAN data. Read more on [the case study page](user-guide/case-studies/gruan).
+☄️ **Involvement:** A case study where the CoMet Toolkit has been successfully implemented with GRUAN data to acquire covariance information of GRUAN data. Read more on [the case study page](/user-guide/case-studies/gruan).
 
 ![GCOS GRUAN](gruan.jpeg)
