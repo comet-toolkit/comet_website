@@ -14,19 +14,26 @@ image:
   #caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-We're very happy to announce that we are releasing v1.0 of the CoMet toolkit.
- 
-This is the first stable version of the CoMet toolkit.
-This release includes three core packages ([**comet_maths**](/tools/comet-maths), [**punpy**](/tools/punpy) & [**obsarray**](/tools/obsarray) which were published on [Github](https://github.com/comet-toolkit) and on the Python package index (pip). 
+### 🎉 CoMet Toolkit v1.0 Released!
 
-It is not possible to install these packages using: 
+We’re excited to announce the release of version 1.0 — the first stable release of the CoMet Toolkit!
+
+This milestone includes three core Python packages:
+
+1. [**comet_maths**](/tools/comet-maths)
+2. [**punpy**](/tools/punpy)
+3. [**obsarray**](/tools/obsarray)
+
+All three are now available on [GitHub](https://github.com/comet-toolkit) and can be installed directly via Python package index **(pip)**:
 
     - pip install comet_maths
     - pip install punpy
     - pip install obsarray
 
-The developed tools went through validation and unit testing, and are accompagnied by documentation pages.
-The [comet_maths documentation](https://comet-maths.readthedocs.io/en/latest/), [punpy documentation](https://punpy.readthedocs.io/en/latest/) and
-[obsarray documentation](https://obsarray.readthedocs.io/en/latest/) were made using readthedocs. 
+### 📋 These tools have been **validated** and **tested**, and are accompanied by full **documentation**:
 
-Further updates will continue to be published on pip and Github, as the tools continue to evolve. 
+- [comet_maths documentation](https://comet-maths.readthedocs.io/en/latest/)
+- [punpy documentation](https://punpy.readthedocs.io/en/latest/)
+- [obsarray documentation](https://obsarray.readthedocs.io/en/latest/)
+
+Further updates and improvements will continue to be released on both pip and GitHub as the toolkit evolves!
