@@ -20,14 +20,14 @@ We’re excited to share that the CoMet website has been updated — with a clea
 
 - 🧭 A new [**projects**](/projects) page showcases a growing list of projects using the CoMet Toolkit. 
 
-- 🚀 A dedicated [**getting started**](/user_guide/getting-started) page is now available to help you begin working with CoMet quickly and confidently.
+- 🚀 A dedicated [**getting started**](/user-guide/getting-started) page is now available to help you begin working with CoMet quickly and confidently.
 
-- 📘 A [**theoretical background**](/user_guide/theory) section has been added, including introductions to uncertainties, QA4EO, processing chains, and error correlation.
+- 📘 A [**theoretical background**](/user-guide/theory) section has been added, including introductions to uncertainties, QA4EO, processing chains, and error correlation.
 
-- 🔍 A [**case studies**](/user_guide/case-studies) section now features practical applications — starting with HYPERNETS and GRUAN.
+- 🔍 A [**case studies**](/user-guide/case-studies) section now features practical applications — starting with HYPERNETS and GRUAN.
 
-- 📂 The examples section has been reorganised under the [**User Guide**](/user_guide/examples), and includes several new examples.
+- 📂 The examples section has been reorganised under the [**User Guide**](/user-guide/examples), and includes several new examples.
 
-- 🎓 A new [**training section**](/user_guide/training) has launched, currently hosting materials from our first CoMet tutorial held at ESA’s Living Planet Symposium.
+- 🎓 A new [**training section**](/user-guide/training) has launched, currently hosting materials from our first CoMet tutorial held at ESA’s Living Planet Symposium.
 
 ### Explore the updated site and let us know what you think! 
