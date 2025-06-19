@@ -11,15 +11,23 @@ image:
   #caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-The CoMet website has been updated! 
+### The CoMet Website Has a Fresh New Look!
 
-It now looks better than ever, and the content on the various pages has been updated.
 
-There is also plenty of new content, such as:
+We’re excited to share that the CoMet website has been updated — with a cleaner design, refreshed content, and plenty of new material to explore.
 
-  - A new [**projects**](/projects) page has been added, listing a range of projects that all use the CoMet toolkit. 
-  - There is now also a new page on [**getting started**](/user_guide/getting-started), to help you on your way with CoMet. 
-  - There is now a section with [**theoretical background**](/user_guide/theory), with articles on "intro to uncertainties", "QA4EO", "processing chains" and "error correlation".
-  - There is a new section with [**case studies**](/user_guide/case-studies), which currently includes an article on HYPERNETS and one on GRUAN.
-  - The examples section, has been moved into the user_guide section, and includes some new examples. 
-  - There is also a new training section, which for now hosts the training material of our first CoMet tutorial at ESA's Living planet symposium. 
+### Here’s what’s new:
+
+- 🧭 A new [**projects**](/projects) page showcases a growing list of projects using the CoMet Toolkit. 
+
+- 🚀 A dedicated [**getting started**](/user_guide/getting-started) page is now available to help you begin working with CoMet quickly and confidently.
+
+- 📘 A [**theoretical background**](/user_guide/theory) section has been added, including introductions to uncertainties, QA4EO, processing chains, and error correlation.
+
+- 🔍 A [**case studies**](/user_guide/case-studies) section now features practical applications — starting with HYPERNETS and GRUAN.
+
+- 📂 The examples section has been reorganised under the [**User Guide**](/user_guide/examples), and includes several new examples.
+
+- 🎓 A new [**training section**](/user_guide/training) has launched, currently hosting materials from our first CoMet tutorial held at ESA’s Living Planet Symposium.
+
+### Explore the updated site and let us know what you think! 

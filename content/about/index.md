@@ -62,7 +62,7 @@ The CoMet toolkit can be used to:
 
 CoMet was designed to fulfil the Quality Assurance framework for Earth Observation ([**QA4EO**](https://www.QA4EO.org/)) requirements.
 According to these guidelines, all Satellite Earth Observations (EO) and in-situ measurements require their corresponding uncertainty information. 
-Where as the CoMet toolkit was designed with the requirements of the EO community in mind, 
+Although the CoMet toolkit was designed with the requirements of the EO community in mind, 
 it can be applied to any field that requires measurement uncertainty propagation. 
 
 ## 📍 Where can CoMet Toolkit be accessed?
