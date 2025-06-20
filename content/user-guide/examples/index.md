@@ -22,7 +22,7 @@ Below, we have compiled a list of relevant examples and linked their correspondi
 
 ### 🗸 General use cases
 
-An example showcasing the capabilitites of the [punpy]({{< relref "/tools/punpy" >}}) package can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_standalone_example_overview.ipynb).
+An example showcasing the capabilitites of the [punpy](/tools/punpy) package can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_standalone_example_overview.ipynb).
 
 This jupyter notebook covers the following concepts:
 
@@ -56,17 +56,17 @@ A notebook containing examples that define **digital effects tables** is availab
 
 It covers the following concepts:
 
-  - How [obsarray]({{< relref "/tools/obsarray" >}}) can be used as a templater for efficiently making **xarray datasets** (both with and without uncertainties)?
-  - How, using [obsarray's]({{< relref "/tools/obsarray" >}}) **special variable types** (uncertainties and flags), datasets including detailed uncertainty and covariance information as well as quality flags can be created? 
-  - An example for a digital effects table quantifying the uncertainties and error-correlation of the gas temperature, pressure, and the number of moles. Here, the uncertainties can be efficiently and easily propagated through a **measurement function** using [punpy]({{< relref "/tools/punpy" >}}) ([learn more](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/master/training/punpy_digital_effects_table_example.ipynb)).
+  - How [obsarray](/tools/obsarray) can be used as a templater for efficiently making **xarray datasets** (both with and without uncertainties)?
+  - How, using [obsarray's](/tools/obsarray) **special variable types** (uncertainties and flags), datasets including detailed uncertainty and covariance information as well as quality flags can be created? 
+  - An example for a digital effects table quantifying the uncertainties and error-correlation of the gas temperature, pressure, and the number of moles. Here, the uncertainties can be efficiently and easily propagated through a **measurement function** using [punpy](/tools/punpy) ([learn more](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/master/training/punpy_digital_effects_table_example.ipynb)).
 
 ### 🗸 Utilising obsarray & punpy
 
-1. An example showcasing the application of [obsarray]({{< relref "/tools/obsarray" >}}) can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/obsarray_example.ipynb).
+1. An example showcasing the application of [obsarray](/tools/obsarray) can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/obsarray_example.ipynb).
 
-2. An example of using [punpy]({{< relref "/tools/punpy" >}}) with digital effects tables created with [obsarray]({{< relref "/tools/obsarray" >}}) is explained [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/defining_digital_effects_table.ipynb).
+2. An example of using [punpy](/tools/punpy) with digital effects tables created with [obsarray](/tools/obsarray) is explained [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/defining_digital_effects_table.ipynb).
 
-This notebook outlines how digital effects tables that are created with [obsarray]({{< relref "/tools/obsarray" >}}), can be propagated through a measurement function using [punpy]({{< relref "/tools/punpy" >}}). 
+This notebook outlines how digital effects tables that are created with [obsarray](/tools/obsarray), can be propagated through a measurement function using [punpy](/tools/punpy). 
 
   - At first, we **calculate the uncertainties** in a volume of gas, using the ideal gas law and a digital effects table. 
   - Then we **quantify the uncertainties** and **error-correlation** of the gas temperature, pressure and amount of substance.

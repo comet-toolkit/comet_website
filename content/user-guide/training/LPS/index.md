@@ -48,6 +48,7 @@ sections:
               &nbsp;&nbsp;• Get familiar with a sample EO data (HYPERNETS)
               &nbsp;&nbsp;• Use the previous exercises to add uncertainties to the HYPERNETS data processing chain
               &nbsp;&nbsp;• Generate and interpret uncertainty-aware outputs"
+
           # Upload image to `assets/media/` and reference the filename here
           image: LPS.jpg
           caption: 'Image credit: ESA'

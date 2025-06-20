@@ -52,7 +52,7 @@ This framework requires that associated uncertainty information is provided for 
 
 Approaches defined within QA4EO enable the EO community to develop quantitative characterisation of uncertainty in EO data. 
 
-QA4EO developed a 5-steps approach to do an uncertainty budget. These 5 steps are described on [this CoMet page](user-guide/theory/QA4EO) and in the [QA4EO process document](https://qa4eo.org/docs/3_Process_Document.pdf).
+QA4EO developed a 5-steps approach to do an uncertainty budget. These 5 steps are described on [this CoMet page](/user-guide/theory/QA4EO) and in the [QA4EO process document](https://qa4eo.org/docs/3_Process_Document.pdf).
 
 However, practically implementing these methods is not trivial and can be time consuming. 
 
