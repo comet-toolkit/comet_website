@@ -16,37 +16,37 @@ sections:
           text: >
             On this page you'll find links to the training material for the CoMet tutorial held at ESA's Living Planet Symposium 2025. 
             The session covers key concepts around uncertainties, with guided exercises using the CoMet toolkit. 
-
+            \n
             💡 Participants will:
             
-            - Gain a conceptual overview of uncertainties in Earth Observation data processing.
+            • Gain a conceptual overview of uncertainties in Earth Observation data processing.
     
-            - Learn how to use the CoMet tools in practical workflows.
+            • Learn how to use the CoMet tools in practical workflows.
     
-            - Apply methods through interactive notebooks hosted on Google Colab.
+            • Apply methods through interactive notebooks hosted on Google Colab.
 
           feature_icon: check
           features:
             - "📃 **Uncertainties 101**: A short introduction to key concepts and why they matter.  
               
-              &nbsp;&nbsp;• Why uncertainty matters? 
+              \n• Why uncertainty matters? 
     
-              &nbsp;&nbsp;• What is the CoMet Toolkit? 
+              \n• What is the CoMet Toolkit? 
     
-              &nbsp;&nbsp;• How CoMet helps with uncertainty handling"
+              \n• How CoMet helps with uncertainty handling"
             
             - "[🔗 **Exercise 1**: Introduction to Punpy Capabilities](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)
     
-              &nbsp;&nbsp;• Get familiar with the punpy tool 
+              \n• Get familiar with the punpy tool 
     
-              &nbsp;&nbsp;• Propagate uncertainties on manually provided input data through a simple measurement functions using punpy 
+              \n• Propagate uncertainties on manually provided input data through a simple measurement functions using punpy 
     
-              &nbsp;&nbsp;• Explore the various ways uncertainties with different error correlations can be propagated"
+              \n• Explore the various ways uncertainties with different error correlations can be propagated"
             
             - "[🔗 **Exercise 2**: Multi-Dimension Datasets](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)  
-              &nbsp;&nbsp;• Store error-correlation information for multi-dimensional measurement datasets using obsarray
-              &nbsp;&nbsp;• Practice on a multi-dimensional Earth Observation dataset example
-              &nbsp;&nbsp;• Propagate uncertainties from these datasets through measurement functions using punpy"
+              \n• Store error-correlation information for multi-dimensional measurement datasets using obsarray
+              \n• Practice on a multi-dimensional Earth Observation dataset example
+              \n• Propagate uncertainties from these datasets through measurement functions using punpy"
             
             - "[🔗 **Exercise 3**: HYPERNETS Use Case](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb)
               &nbsp;&nbsp;• Get familiar with a sample EO data (HYPERNETS)
