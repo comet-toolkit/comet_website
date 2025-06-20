@@ -13,7 +13,7 @@ sections:
     content:
       items:
         - title: Hands-on training session at LPS
-          text: On this page you'll find links to the training material for the CoMet tutorial held at ESA's Living Planet Symposium 2025. 
+          text: "On this page you'll find links to the training material for the CoMet tutorial held at ESA's Living Planet Symposium 2025. 
             The session covers key concepts around uncertainties, with guided exercises using the CoMet toolkit. \n
             
             💡 Participants will:\n
@@ -22,17 +22,17 @@ sections:
     
             • Learn how to use the CoMet tools in practical workflows.\n
     
-            • Apply methods through interactive notebooks hosted on Google Colab.\n
+            • Apply methods through interactive notebooks hosted on Google Colab.\n"
 
           feature_icon: check
           features:
-            - "📃 **Uncertainties 101**: A short introduction to key concepts and why they matter. \n 
+            - 📃 **Uncertainties 101**: A short introduction to key concepts and why they matter. \n 
               
               • Why uncertainty matters? \n
     
               • What is the CoMet Toolkit? \n
     
-              • How CoMet helps with uncertainty handling" 
+              • How CoMet helps with uncertainty handling
             
             - "[🔗 **Exercise 1**: Introduction to Punpy Capabilities](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb) \n
     
