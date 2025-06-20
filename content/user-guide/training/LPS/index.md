@@ -39,9 +39,24 @@ sections:
       items:
         - name: [🔗 **Exercise 1**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)
           icon: code-bracket
-          description: "Introduction to Punpy Capabilities
-          • Get familiar with the punpy tool \n
-          • Propagate uncertainties on manually provided input data through a simple measurement functions using punpy \n
-          • Explore the various ways uncertainties with different error correlations can be propagated" 
+          description: Introduction to Punpy Capabilities
+[comment]: <> (          • Get familiar with the punpy tool \n)
+[comment]: <> (          • Propagate uncertainties on manually provided input data through a simple measurement functions using punpy \n)
+[comment]: <> (          • Explore the various ways uncertainties with different error correlations can be propagated" )
           url: https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb
+        - name: [🔗 **Exercise 2**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)
+          icon: code-bracket
+          description: Multi-Dimension Datasets
+[comment]: <> (          • Store error-correlation information for multi-dimensional measurement datasets using obsarray \n)
+[comment]: <> (          • Practice on a multi-dimensional Earth Observation dataset example \n)
+[comment]: <> (          • Propagate uncertainties from these datasets through measurement functions using punpy")
+          url: https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb
+        - name: [🔗 **Exercise 3**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb) \n
+          icon: code-bracket
+          description: HYPERNETS Use Case
+[comment]: <> (          • Get familiar with a sample EO data &#40;HYPERNETS&#41; \n)
+[comment]: <> (          • Use the previous exercises to add uncertainties to the HYPERNETS data processing chain \n)
+[comment]: <> (          • Generate and interpret uncertainty-aware outputs")
+          url: https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb
+
 ---
