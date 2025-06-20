@@ -30,4 +30,20 @@ sections:
             text: Download Slides
             url: LPS_introduction_CoMet_toolkit.pdf
             icon: hero/download
+    
+  - block: features
+    id: exercises
+    content:
+      title: Exercises
+      text: Links to each of the exercises, with a short description what they are about.
+      items:
+        - name: [🔗 **Exercise 1**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)
+          icon: code-bracket
+          description: "Introduction to Punpy Capabilities
+          • Get familiar with the punpy tool \n
+
+          • Propagate uncertainties on manually provided input data through a simple measurement functions using punpy \n
+
+          • Explore the various ways uncertainties with different error correlations can be propagated" 
+          url: https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb
 ---
