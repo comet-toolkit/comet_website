@@ -44,9 +44,13 @@ sections:
         - name: [🔗 **Exercise 2**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)
           icon: code-bracket
           description: Multi-Dimension Datasets
-          url: https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb
+          url: https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb
         - name: [🔗 **Exercise 3**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb) 
           icon: code-bracket
           description: HYPERNETS Use Case
-          url: https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb
+          url: https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb
+    design:
+    #   # Section background color (CSS class)
+      css_class: "bg-gray-100 dark:bg-gray-900"
+
 ---
