@@ -34,7 +34,7 @@ sections:
     
               • How CoMet helps with uncertainty handling" 
             
-            - "[🔗 **Exercise 1**: Introduction to Punpy Capabilities](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)
+            - "[🔗 **Exercise 1**: Introduction to Punpy Capabilities](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb) \n
     
               • Get familiar with the punpy tool \n
     
@@ -42,14 +42,20 @@ sections:
     
               • Explore the various ways uncertainties with different error correlations can be propagated" 
             
-            - "[🔗 **Exercise 2**: Multi-Dimension Datasets](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)  
+            - "[🔗 **Exercise 2**: Multi-Dimension Datasets](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)
+    
               • Store error-correlation information for multi-dimensional measurement datasets using obsarray \n
+    
               • Practice on a multi-dimensional Earth Observation dataset example \n
+    
               • Propagate uncertainties from these datasets through measurement functions using punpy" 
             
             - "[🔗 **Exercise 3**: HYPERNETS Use Case](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb) \n
+    
               • Get familiar with a sample EO data (HYPERNETS) \n
+    
               • Use the previous exercises to add uncertainties to the HYPERNETS data processing chain \n
+    
               • Generate and interpret uncertainty-aware outputs" 
 
           # Upload image to `assets/media/` and reference the filename here
