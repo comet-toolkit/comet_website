@@ -38,7 +38,7 @@ sections:
       items:
         - name: "[**Exercise 1**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)"
           icon: code-bracket
-          description: "Introduction to Punpy Capabilities
+          description: "Introduction to Punpy Capabilities \n
     
               • Get familiar with the punpy tool \n
     
@@ -47,7 +47,7 @@ sections:
               • Explore the various ways uncertainties with different error correlations can be propagated"
         - name: "[**Exercise 2**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)"
           icon: star
-          description: "Multi-Dimension Datasets 
+          description: "Multi-Dimension Datasets \n
     
               • Store error-correlation information for multi-dimensional measurement datasets using obsarray \n
     
@@ -56,7 +56,7 @@ sections:
               • Propagate uncertainties from these datasets through measurement functions using punpy"
         - name: "[**Exercise 3**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb)"
           icon: sparkles
-          description: "HYPERNETS Use Case
+          description: "HYPERNETS Use Case \n
     
               • Get familiar with a sample EO data (HYPERNETS) \n
     
