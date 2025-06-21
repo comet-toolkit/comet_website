@@ -36,29 +36,23 @@ sections:
       title: Exercises
       text: Links and descriptions to the three exercises for this training session, hosted on google colab.
       items:
-        - name: "[**Exercise 1**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)"
+        - name: "[**Exercise 1**: Introduction to Punpy Capabilities](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)"
           icon: code-bracket
-          description: "Introduction to Punpy Capabilities \n
-    
-              • Get familiar with the punpy tool \n
+          description: "• Get familiar with the punpy tool \n
     
               • Propagate uncertainties on manually provided input data through a simple measurement functions using punpy \n
     
               • Explore the various ways uncertainties with different error correlations can be propagated"
-        - name: "[**Exercise 2**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)"
+        - name: "[**Exercise 2**: Multi-Dimension Datasets](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)"
           icon: star
-          description: "Multi-Dimension Datasets \n
-    
-              • Store error-correlation information for multi-dimensional measurement datasets using obsarray \n
+          description: "• Store error-correlation information for multi-dimensional measurement datasets using obsarray \n
     
               • Practice on a multi-dimensional Earth Observation dataset example \n
     
               • Propagate uncertainties from these datasets through measurement functions using punpy"
-        - name: "[**Exercise 3**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb)"
+        - name: "[**Exercise 3**: HYPERNETS Use Case](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb)"
           icon: sparkles
-          description: "HYPERNETS Use Case \n
-    
-              • Get familiar with a sample EO data (HYPERNETS) \n
+          description: "• Get familiar with a sample EO data (HYPERNETS) \n
     
               • Use the previous exercises to add uncertainties to the HYPERNETS data processing chain \n
     
