@@ -38,16 +38,25 @@ sections:
       items:
         - name: "[**Exercise 1**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)"
           icon: code-bracket
-          description: propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output
-          url: tools/punpy     
-        - name: "[ **Exercise 2**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)"
-          icon: star
-          description: an extension to xarray for defining, storing and interfacing with uncertainty and measurement error-covariance information in NetCDF files using standardised metadata
-          url: tools/obsarray
-        - name: "[🔗 **Exercise 3**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb)"
-          icon: sparkles
-          description: useful mathematical algorithms, including interpolation with uncertainties
-          url: tools/comet_maths
+          description: "Introduction to Punpy Capabilities \n
+          • Get familiar with the punpy tool \n
+          • Propagate uncertainties on manually provided input data through a simple measurement functions using punpy \n
+          • Explore the various ways uncertainties with different error correlations can be propagated" 
+          url: https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb
+        - name: [🔗 **Exercise 2**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)
+          icon: code-bracket
+          description: "Multi-Dimension Datasets \n
+          • Store error-correlation information for multi-dimensional measurement datasets using obsarray \n
+          • Practice on a multi-dimensional Earth Observation dataset example \n
+          • Propagate uncertainties from these datasets through measurement functions using punpy"
+          url: https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb
+        - name: [🔗 **Exercise 3**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb) \n
+          icon: code-bracket
+          description: "HYPERNETS Use Case \n
+          • Get familiar with a sample EO data (HYPERNETS) \n
+          • Use the previous exercises to add uncertainties to the HYPERNETS data processing chain \n
+          • Generate and interpret uncertainty-aware outputs"
+          url: https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb
     design:
     #   # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
