@@ -31,10 +31,10 @@ sections:
             url: LPS_introduction_CoMet_toolkit.pdf
             icon: hero/download
   - block: features
-    id: tools
+    id: exercises
     content:
-      title: Tools
-      text: A list of tools which abstract away the complexity of dealing with uncertainties.
+      title: Exercises
+      text: Links and descriptions to the three exercises for this training session, hosted on google colab.
       items:
         - name: "[**Exercise 1**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)"
           icon: code-bracket
