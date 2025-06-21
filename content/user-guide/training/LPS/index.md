@@ -36,15 +36,15 @@ sections:
       title: Tools
       text: A list of tools which abstract away the complexity of dealing with uncertainties.
       items:
-        - name: [🔗 **Exercise 1**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)
+        - name: "[**Exercise 1**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)"
           icon: code-bracket
           description: propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output
           url: tools/punpy     
-        - name: [🔗 **Exercise 2**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)
+        - name: "[ **Exercise 2**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)"
           icon: star
           description: an extension to xarray for defining, storing and interfacing with uncertainty and measurement error-covariance information in NetCDF files using standardised metadata
           url: tools/obsarray
-        - name: [🔗 **Exercise 3**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb) 
+        - name: "[🔗 **Exercise 3**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb)"
           icon: sparkles
           description: useful mathematical algorithms, including interpolation with uncertainties
           url: tools/comet_maths
