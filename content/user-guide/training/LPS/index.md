@@ -39,15 +39,12 @@ sections:
         - name: "[**Exercise 1**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)"
           icon: code-bracket
           description: Introduction to Punpy Capabilities 
-          url: "https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb"
         - name: "[🔗 **Exercise 2**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)"
-          icon: code-bracket
-          description: "Multi-Dimension Datasets 
-          url: "https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb"
+          icon: star
+          description: Multi-Dimension Datasets 
         - name: "[🔗 **Exercise 3**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb)"
-          icon: code-bracket
-          description: "HYPERNETS Use Case 
-          url: "https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb"
+          icon: sparkles
+          description: HYPERNETS Use Case 
     design:
     #   # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
