@@ -30,27 +30,25 @@ sections:
             text: Download Slides
             url: LPS_introduction_CoMet_toolkit.pdf
             icon: hero/download
-    
   - block: features
-    id: exercises
+    id: tools
     content:
-      title: Exercises
-      text: Links to each of the exercises, with a short description what they are about.
+      title: Tools
+      text: A list of tools which abstract away the complexity of dealing with uncertainties.
       items:
-        - name: [🔗 **Exercise 1**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb)
+        - name: punpy
           icon: code-bracket
-          description: Introduction to Punpy Capabilities
-          url: https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise1.ipynb
-        - name: [🔗 **Exercise 2**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb)
-          icon: code-bracket
-          description: Multi-Dimension Datasets
-          url: https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2.ipynb
-        - name: [🔗 **Exercise 3**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb) 
-          icon: code-bracket
-          description: HYPERNETS Use Case
-          url: https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb
+          description: propagates uncertainties on input quantities through any python function, evaluating the uncertainty on the output
+          url: tools/punpy     
+        - name: obsarray
+          icon: star
+          description: an extension to xarray for defining, storing and interfacing with uncertainty and measurement error-covariance information in NetCDF files using standardised metadata
+          url: tools/obsarray
+        - name: comet_maths
+          icon: sparkles
+          description: useful mathematical algorithms, including interpolation with uncertainties
+          url: tools/comet_maths
     design:
     #   # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-
 ---
