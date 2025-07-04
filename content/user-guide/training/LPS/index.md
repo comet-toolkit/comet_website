@@ -51,7 +51,7 @@ sections:
     
               • Propagate uncertainties from these datasets through measurement functions using punpy \n
     
-              • [**solution**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2_solution.ipynb)"
+              [**solution**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise2_solution.ipynb)"
         - name: "[**Exercise 3**: HYPERNETS Use Case](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3.ipynb)"
           icon: sparkles
           description: "• Get familiar with a sample EO data (HYPERNETS) \n
@@ -60,7 +60,7 @@ sections:
     
               • Generate and interpret uncertainty-aware outputs \n
     
-              • [**solution**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3_solution.ipynb)"
+              [**solution**](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/LPS_training_exercise3_solution.ipynb)"
     design:
     #   # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
