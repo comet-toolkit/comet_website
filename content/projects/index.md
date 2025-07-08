@@ -165,3 +165,13 @@ Here's the ever-growing list of the projects and organisations which have utilis
 ☄️ **Involvement:** A case study where the CoMet Toolkit has been successfully implemented with GRUAN data to acquire covariance information of GRUAN data. Read more on [the case study page](/user-guide/case-studies/gruan).
 
 ![GCOS GRUAN](gruan.jpeg)
+
+## 🗸 St3TART-FO
+
+📋 **Overview:** The St3TART-FO project is aimed at providing an operational framework for Fiducial Reference Measurements (FRM) in support of the validation activities of the Sentinel-3 (S3) radar altimeter over land surfaces of interest, including inland water bodies (lakes, reservoirs, rivers including estuarian areas), as well as sea ice and land ice areas (ice caps, mountain glaciers, etc.).
+
+🔗 **URL:** [**St3TART Website**](https://sentinel3-st3tart.noveltis.fr/)
+
+☄️ **Involvement:** CoMet has been used to implement uncertainty propagation within the St3TART-FO project.
+
+![St3TART-FO](St3TART-FO.png)
