@@ -15,26 +15,26 @@ date: 2024-03-19
 
 ## ❔ What is *obsarray*?
 
-*obsarray* is an extension to xarray for
+*obsarray* is an extension to xarray that enables:
 
-- defining
-- storing
-- interfacing 
+- Defining,
+- Storing, and
+- Interfacing 
 
-with uncertainty and measurement error-covariance information in NetCDF files using standardised metadata. 
+with uncertainty and measurement error-covariance information in NetCDF files, using standardised metadata. 
 
-These datasets that include standardised uncertainty and error-covariance information in so-called **'digital effects tables'**.
+Datasets created using *obsarray* include this standardised uncertainty and error-covariance information in so-called **'digital effects tables'**.
 
 ## 📍 Where can *obsarray* be found?
 
 - The *obsarray* documentation is available [here](https://obsarray.readthedocs.io/en/latest/).
-- There are also jupyter notebooks available in the [example section](/user-guide/examples/).
+- Jupyter notebooks demonstrating its usage can be found in the [examples section](/user-guide/examples/).
 
-## 📋 What can *obsarray* tool be used for?
+## 📋 What can the *obsarray* tool be used for?
 
-Using methods defined by the CoMet [UNC Specification](https://comet-toolkit.github.io) (uncertainty metadata naming conventions), *obsarray* enables users to parameterise their error-covariance information by storing it as attributes to uncertainty variables - creating 'digital effects tables'. 
+Based on methods defined by the CoMet [UNC Specification](https://comet-toolkit.github.io) - which establishes uncertainty metadata naming conventions - *obsarray* allows users to parameterise error-covariance information by storing it as attributes attached to uncertainty variables - creating so-called 'digital effects tables'. 
 
-One important aim of the CoMet Toolkit is to abstract away the complexity of dealing with error-covariances. Using measurement datasets defined in this way using *obsarray*, you can for example:
+A key goal of the CoMet Toolkit is to abstract away the complexity of managing error covariances. When measurement datasets are structured using *obsarray*, users can:
 
-* read/write datasets in a way that error-correlation information is preserved.
-* propagate dataset uncertainty using *punpy* -- which can directly use the 'digital effects tables', so that users typically never have to interact with it.
+* Read and write datasets while preserving error-correlation information.
+* Propagate dataset uncertainties via *punpy* - which can directly use the 'digital effects tables' - so users rarely need to handle these complexities manually.

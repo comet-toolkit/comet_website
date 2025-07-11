@@ -12,10 +12,10 @@ sections:
     id: lps
     content:
       items:
-        - title: 🙌 Hands-on training session at LPS
+        - title: 🙌 Hands-on Training Session at ESA's LPS 2025
           text: >
             On this page you'll find links to the training material for the CoMet tutorial held at ESA's Living Planet Symposium 2025. 
-            The session covers key concepts around uncertainties, with guided exercises using the CoMet toolkit. 
+            The session covers key concepts around uncertainties, with guided exercises using the CoMet toolkit in real-world examples. 
 
             💡 Participants will:
             - Gain a conceptual overview of uncertainties in Earth Observation data processing.

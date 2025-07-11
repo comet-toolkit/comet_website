@@ -12,7 +12,7 @@ authors:
 #   - Uncertainties
 ---
 
-Here's the ever-growing list of the projects and organisations which have utilised CoMet's capabilities!
+Here's the growing list of the projects and organisations that have made use of CoMet's capabilities!
 
 ## 🗸 QA4EO
 
@@ -71,7 +71,7 @@ Here's the ever-growing list of the projects and organisations which have utilis
 
 [//]: # (🔗 **Links:** [****]&#40;&#41;)
 
-☄️ **Involvement:** The CoMet toolkit will be used in a range of its case studies.
+☄️ **Involvement:** The CoMet toolkit will be used in a range of case studies.
   
 ## 🗸 TACOS
 
@@ -79,7 +79,7 @@ Here's the ever-growing list of the projects and organisations which have utilis
 
 [//]: # (🔗 **Links:** [****]&#40;&#41;)
 
-☄️ **Involvement:** The CoMet toolkit is used for uncertainty propagation in various parts.
+☄️ **Involvement:** The CoMet toolkit is used for uncertainty propagation in various contexts.
 
 ![TACOS.png](TACOS.png)
 

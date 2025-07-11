@@ -22,93 +22,98 @@ tags:
 
 Welcome 👋
 
-In this brief guide we will walk you through the basic steps and prerequisites to get started with CoMet. 
+This brief guide walks you through the key prerequisites and steps to get started with CoMet. 
 
-## 1.💡 Get familiar with the toolkit and its capabilities. 
+## 1.💡 Get familiar with the toolkit and its capabilities
 
-All the relevant information regarding the aims and functionality of CoMet Toolkit is outlined in the [**About Section**]({{< relref "/about" >}}). 
+To understand what the CoMet Toolkit offers, we recommend starting with the [**About Section**]({{< relref "/about" >}}), which outlines the aims and functionality in detail. 
 
 But, in a nutshell, 
 
-  > CoMet stands for **Community Metrology Toolkit** and it a set of software tools that handle, process, and store measurement data uncertainties and error-correlation information.
+  > CoMet stands for **Community Metrology Toolkit**. It is a suite of open-source software tools designed to handle, process, and store measurement data uncertainties and error-correlation information.
 
-It accounts for case- and source-specific characteristics of the measurements, and can be used to quantify uncertainties and the uncertainty budget, create digital effects tables, and overall validate measurements. 
+The toolkit accounts for case- and source-specific characteristics of measurements, and can be used to:
+    * Quantify measurement uncertainties and uncertainty budget
+    * Generate digital effects tables
+    * Validate measurements
 
-At this time, there are three individual tools:
+Currently, CoMet consists of three core tools:
 
     1. obsarray
     2. punpy
     3. comet_maths
 
-but more modules are planned to be developed and included in the future. For more detail, refer to the [**Tools Section**]({{< relref "/#tools" >}}). 
+Additional modules are in development and will be added over time. For more details on the individual tools, refer to the [**Tools Section**]({{< relref "/#tools" >}}). 
 
-## 2. 🗃️ Characterise the data/measurements that require the uncertainty propagation. 
+## 2. 🗃️ Characterise the data/measurements that require the uncertainty propagation
 
-The main purpose of these tools, is to propagate uncertainties. To do that, you must have an overall understanding of the type of data/measurements you are working with. 
+The core purpose of the CoMet Toolkit is to propagate uncertainties. To do this effectively, it's essential to have a clear understanding of the type of data/measurements you're working with. 
 
-For a general approach on determining an uncertainty budget, we refer to the 5-step QA4EO approach. See [this page](/user-guide/theory/QA4EO) in our theory section, or the [QA4EO process document](https://qa4eo.org/docs/3_Process_Document.pdf).
+For a general framework for determining an uncertainty budget, we refer to the Five-step QA4EO approach. See [this page](/user-guide/theory/QA4EO) in our theory section, or refer directly to the [QA4EO process document](https://qa4eo.org/docs/3_Process_Document.pdf).
 
-To help you identify all the relevant information from your dataset, we have compiled a list of relevant questions and tips.
+To help you identify all the relevant information within your dataset, we have compiled a set of guiding questions and practical tips:
 
 ### 🗸 General 
 
-  - ❔ What kind of data do you have?
+  - ❔ What kind of data are you working with?
   - ❔ Does it require any pre-processing or filtering?
-  - ❔ How many datapoints do you have? Is the data memory-heavy?
+  - ❔ How many data points do you have? Is it memory-intensive?
 
 ### 🗸 Quantifying uncertainties on input quantities
 
-  - ❔ Can you list all the input quantities of your measurements?
-  - ❔ Can you identify all the error sources?
-  - There are three types of errors, each with their own characteristics: 
+  - ❔ Can you list all the input quantities involvements in your measurements?
+  - ❔ Can you identify all the potential error sources?
+  - Errors generally fall into three categories, each with distinct characteristics: 
     1. Random
     2. Systematic
     3. Structured
 
-  ❕ Typically, each of the input quantities will be affected by **one or more** error effect!
+  ❕ Typically, each input quantity will be affected by **one or more** error effects!
 
 ### 🗸 Defining measurement function
 
-  - ❔ What is the analytic expression (i.e. measurement function) of your data? 
-  - ❔ Do you have a more complex processing chain using external software?
-  - ❔ Can your measurement function be written as a Python function that has the input quantities as arguments, and returns the measurand? 
+  - ❔ What is the analytic expression (i.e. measurement function) that relates your input quantities to your measurand? 
+  - ❔ Are you using a more complex processing chain involving external software?
+  - ❔ Can your measurement function be written in Python, with your input quantities as arguments, and the measurand as the output? 
 
-  Read more about the importance and functionality of **measurement functions** in our page on [**propagating uncertainties through a measurement function**](/user-guide/theory/processing-chains/).  
+  Learn more about defining and using **measurement functions** in our guide on [**propagating uncertainties through a measurement function**](/user-guide/theory/processing-chains/).  
 
 ### 🗸 Determining error correlation
 
-Once you have identified the various errors and their types, that are present in your measurements, it's important to consider how these values and errors correlate with one another.
+Once the error sources have been identified, it's important to consider how these errors correlate across your data.
 
-As defined by this FIDUCEO article on ["The origin of error correlation"](https://research.reading.ac.uk/fiduceo/archive/tutorials/the-origin-of-error-correlation/),
+As described in FIDUCEO's article on ["The origin of error correlation"](https://research.reading.ac.uk/fiduceo/archive/tutorials/the-origin-of-error-correlation/),
 
   > Correlation is a statistical measure of how two, or more, variables vary together.
 
-To learn more about error correlation structures and examples in the context of Earth Observations, refer our page on [error correlation and how to store it](/user-guide/theory/error_correlation).
+To learn more about how error correlation applies to Earth observation data - and how it can be represented - see our page on [error correlation and how to store it](/user-guide/theory/error_correlation).
 
-## 3. 🧾 Identify similarities between your specific requirements and the available examples.
+## 3. 🧾 Identify similarities between your use case and the available examples.
 
-  - Look through the available [examples]({{< relref "/user-guide/examples" >}}) and documentation. 
-  - Plan out how the toolkit can be applied to your specific case study.
-  - ❔ Which tools and in what order will you use? 
+Before diving into implementation, it may be helpful to explore how others have used the toolkit - and how their approaches might apply to your work.
+
+  - Browse through the available [examples]({{< relref "/user-guide/examples" >}}) and documentation. 
+  - Consider how the CoMet tools can be applied to your own case study.
+  - ❔ Which tools will you need to use - and in what order? 
 
 ## 4. 🖥️ Install the tools
 
-All the available tools are  available on [GitHub](https://github.com/comet-toolkit) and installable via pip:
+All CoMet Toolkit components are open-source and available on [GitHub](https://github.com/comet-toolkit). They can be easily installed via pip:
 
     - pip install comet_maths
     - pip install punpy
     - pip install obsarray
 
-  _Installing **punpy** will automatically install comet-maths and obsarray._
+  _Installing **punpy** will automatically install both comet-maths and obsarray as dependencies._
 
 
-## 5. ✔️ Perform the uncertainty estimation and interpret the results. 
+## 5. ✔️ Perform uncertainty estimation and interpret the results
 
-After defining a measurement function, installing and importing all the relevant packages and data, it's time to benefit from the power of CoMet! 
+With your measurement function defined, and all relevant packages and data installed/prepared, you're now ready to harness the full power of the CoMet Toolkit! 
 
-### 🗸 Method breakdown
+### 🗸 What Can You Do?
 
-A general overview of the various capabilities and methods are compiled bellow. 
+Here's an overview of the key capabilities and methods available in CoMet: 
 
   - store uncertainty and error correlation information
     1. machine readable digital effects tables
@@ -121,24 +126,27 @@ A general overview of the various capabilities and methods are compiled bellow.
     2. Quadratic
     3. Cubic 
     4. Gaussian Process Regression (GPR)
-    5. Extrapolate data
+    5. Extrapolation
 
-_Several of the methods listed above apply to more than one of the applications. For more information refer to [examples]({{< relref "/user-guide/examples" >}})._
+_Many of these methods can be used in combination across different workflows. For detailed examples, refer to the [examples section]({{< relref "/user-guide/examples" >}})._
 
-## 6. 📈 Advanced use.
+## 6. 📈 Advanced use
 
-In this section, we have highlighted certain tips for advanced use of the toolkit. 
+This section outlines tips and guidance for users working with large datasets or performance-critical applications. 
 
 ### 🗸 Managing memory and runtime
 
-  Certain products may have large RAM requirements, and the MC approach that is often used in CoMet can increase the RAM and runtime requirements by one or more orders of magnitude. 
-  
-  There are ways to manage memory and runtime, as described in the [punpy documentation](https://punpy.readthedocs.io/en/latest/content/punpy_memory_and_speed.html). 
+  Certain datasets - especially those with multiple dimensions, or requiring Monte Carlo propagation - can have substantial RAM and CPU requirements. 
+    
+  Key tips:
+  * Storing full error correlation matrices across all dimensions can be prohibitively memory-intensive.
+  * Instead, consider splitting the correlation structures by dimension (e.g. time, wavelength, spatial axes).
+  * CoMet supports the use of error correlation dictionaries, which help manage large correlation structures more efficiently during propagation.
 
-  For example, often storing the error correlation between all the measurements along all dimensions in a dataset is often prohibitively memory intensive. 
-  Instead, it is usually possible to store the error correlation separately between different dimensions. 
+  For practical guidance, see the [punpy memory and performance documentation](https://punpy.readthedocs.io/en/latest/content/punpy_memory_and_speed.html). 
 
-  E.g. the **HYPERNETS L2A** surface reflectance data, has a wavelength and series dimension for which the error correlation are stored separately.  
-  When propagating this information, using error correlation dictionaries can be useful, (see e.g. the end of [this jupyter notebook example](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/hypernets_surface_reflectance.ipynb)).
+  An Example:
+  The **HYPERNETS L2A** surface reflectance product includes both a wavelength and time-series dimension. Uncertainty handling for this dataset can be optimised by storing error correlation separately for each dimension, and propagating using correlation dictionaries.
+  See the final section of [this jupyter notebook example](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/hypernets_surface_reflectance.ipynb) for implementation details.
 
 

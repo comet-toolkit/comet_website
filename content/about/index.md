@@ -22,52 +22,50 @@ authors:
 
 ## ❔ What is the CoMet Toolkit?
 
-  The **Community Metrology** (CoMet) **Toolkit** is a set of open-source software tools that can handle, process, and store measurement data uncertainties and error-correlation information.
+  The **Community Metrology** (CoMet) **Toolkit** is a suite of open-source software tools designed to handle, process, and store measurement data uncertainties and error-correlation information.
  
-  The main feature of this toolkit lies in its abilities to deal with the complexities of combining individual uncertainties from various sources, propagating these through any Python measurement function, and quantify and store uncertainty and error correlation information on the outputs. 
+  Its key strength lies in managing the complexity of combining individual uncertainties from various sources, propagating them through any Python- based measurement function, and quantifying and storing the resulting uncertainty and error-correlation information. 
   
-  This is done in a way that allows the user to use quality assured code, while most of the complexities are handled behind the scenes. This simplifies dealing with uncertainties for experienced and less experienced users alike.  
+  The toolkit is designed to integrate seamlessly within your workflow - ensuring quality-assured results while handling much of the complexity behind the scenes. This makes it accessible and effective for both experienced users and those new to working with measurement uncertainties.  
 
 ## 💡 Why is the CoMet Toolkit relevant?
 
-  To ensure credible and reliable interpretation of data, the associated uncertainty information ought to be provided. Oftentimes it is made up of a multitude of sources combined through the processing chain. Each source affects the final product at varying levels.
+  To ensure credible and reliable data interpretation, uncertainty information must be provided alongside measurements. This uncertainty is typically made up of a multitude of sources combined throughout a processing chain, with each source influencing the final product to varying degrees.
   
-  When multiple measurements with uncertainties are combined throughout the processing chain (e.g. performing temporal or spatial averages or integrals, or when fitting a model to the data), it is also critical to take into account the error-correlation information. 
+  When combining measurements with uncertainties - whether through temporal or spatial averaging, integration, or model fitting - it is also essential to account for error correlation. Depending on the nature of that correlation, the resulting uncertainty can vary significantly. For example, random uncertainties may be reduced by averaging, whereas systematic uncertainties are not. 
   
-  Depending on the error-correlation, the output uncertainty will be different (e.g., random uncertainties are reduced by averaging, but systematic uncertainties are not). To get a correct uncertainty on the final measurand from the combined measurements, 
-  the error correlation thus needs to be taken into account for each relevant dimension. 
+  To correctly evaluate the uncertainty on the final measurand, it is necessary to consider the error correlation across all relevant dimensions.
 
-  CoMet Toolkit accounts for case- and source-specific characteristics of the measurement uncertainties. It can handle:
+  The CoMet Toolkit is designed to manage exactly this. It accounts for case- and source-specific characteristics of the measurement uncertainties and can handle:
 
-- any measurement function that can be written as a Python function
-- data of any dimension (float/1D/2D/3D/…)
-- data with multiple sources of uncertainties
-- a wide range of different error correlation structures
-- different probability distribution functions
-- _many more_
+- Any measurement function that can be written in Python
+- Data of any dimension (float/1D/2D/3D/…)
+- Multiple sources of uncertainty
+- A wide range of error correlation structures
+- Different probability distribution functions
+- _And more_
 
 ## 📋 What can the CoMet Toolkit be used for?
 
-The CoMet toolkit can be used to:
+With the CoMet toolkit, you can:
   
-- define measurement functions in Python
-- propagate uncertainties 
-- create digital effects table (DTE)
-- Automatically parse and propagate uncertainties in DTE
-- propagating uncertainties through temporal or spatial averaging
-- combining random and systemic uncertainties
-- handling random and systemic uncertainties separately
-- calculate the uncertainty budget
-- _many more_
+- Define measurement functions in Python
+- Propagate uncertainties 
+- Create and work with Digital Effects Table (DTEs)
+- Automatically parse and propagate uncertainties through DTEs
+- Propagate uncertainties through temporal or spatial operations (e.g., averaging, integration)
+- Handle and combine both random and systemic uncertainties
+- Calculate full uncertainty budgets
+- _And more_
 
-CoMet was designed to fulfil the Quality Assurance framework for Earth Observation ([**QA4EO**](https://www.QA4EO.org/)) requirements.
-According to these guidelines, all Satellite Earth Observations (EO) and in-situ measurements require their corresponding uncertainty information. 
-Although the CoMet toolkit was designed with the requirements of the EO community in mind, 
-it can be applied to any field that requires measurement uncertainty propagation. 
+CoMet was designed to meet the requirements of the Quality Assurance framework for Earth Observation ([**QA4EO**](https://www.QA4EO.org/)).
+These guidelines require that all Satellite Earth Observations (EO) and in-situ measurements are provided with their corresponding uncertainty information. 
 
-## 📍 Where can CoMet Toolkit be accessed?
+While developed with the EO community in mind, the CoMet Toolkit is highly adaptable and can be applied to any field that requires uncertainty propagation. 
 
-  The CoMet Toolkit is available on [**GitHub**](https://github.com/comet-toolkit) with packages installable via pip from the Python Package Index.
+## 📍 Where can I access the CoMet Toolkit?
+
+  The CoMet Toolkit is open-source and freely available on [**GitHub**](https://github.com/comet-toolkit). All packages can be easily installed via pip from the Python Package Index.
   **Examples** demonstrating the capabilities of this toolkit are available [**here**](https://www.comet-toolkit.org/examples/). 
 
 ## 👋 Authors & Citations
