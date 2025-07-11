@@ -1,5 +1,5 @@
 ---
-title: QA4EO uncertainty budget
+title: QA4EO Uncertainty Budget
 summary: How does the QA4EO framework implement an uncertainty budget?
 date: 2025-06-14
 authors:

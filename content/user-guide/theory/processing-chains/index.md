@@ -1,5 +1,5 @@
 ---
-title: Propagating uncertainties through a processing chain
+title: Propagating Uncertainties Through a Processing Chain
 summary: How are uncertainties propagated through a measurement function?
 date: 2025-06-13
 authors:
