@@ -119,7 +119,7 @@ sections:
     content:
       items:
         - title: Exploring the possibilities!
-          text: CoMet can be used to:
+          text: CoMet can be used to ... 
           feature_icon: bolt
           features:
             - "Propagate uncertainties"
