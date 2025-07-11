@@ -5,7 +5,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "5rem"
+  spacing: "2rem"
 
 sections:
   - block: hero
@@ -26,10 +26,10 @@ sections:
           url: "latest-news/"
     design:
       spacing:
-        padding: [0, 100, 300, 200]
+        padding: [0, 100, 300, 0]
         margin: [0, 0, 0, 0]
       # For full-screen, add `min-h-screen` below
-      css_class: "dark"
+      css_class: "min-h-screen dark"
       background:
         color: "navy"
         image:
