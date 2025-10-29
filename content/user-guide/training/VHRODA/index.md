@@ -43,7 +43,7 @@ sections:
               • Propagate uncertainties on manually provided input data through a simple measurement functions using punpy \n
     
               • Explore the various ways uncertainties with different error correlations can be propagated"
-        - name: "<a href="https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/VHRODA_training_exercise2.ipynb" style="color: blue; font-style: underline;"> Exercise 2: Multi-Dimension Datasets</a>"
+        - name: <a href="https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/VHRODA_training_exercise2.ipynb" style="color: blue; font-style: underline;"> Exercise 2: Multi-Dimension Datasets</a>
           icon: star
           description: "• Store error-correlation information for multi-dimensional measurement datasets using obsarray \n
     
