@@ -9,7 +9,7 @@ design:
 
 sections:
   - block: cta-image-paragraph
-    id: lps
+    id: vhroda
     content:
       items:
         - title: Hands-on training session at VH-RODA
