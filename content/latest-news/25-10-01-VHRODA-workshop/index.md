@@ -1,7 +1,7 @@
 ---
 title: VH-RODA workshop 2025
 summary: Hands-on tutorial on the CoMet Toolkit at the ESA VH-RODA workshop 2025.
-date: 2025-05-01
+date: 2025-10-01
 authors:
   - admin
 tags:
