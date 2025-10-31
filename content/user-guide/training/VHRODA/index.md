@@ -12,9 +12,7 @@ sections:
     id: vhroda
     content:
       items:
-        - title: "Hands-on training session 
-        
-                  at VH-RODA"
+        - title: "Hands-on training session VH-RODA"
           text: "On this page you'll find links to the training material for the CoMet tutorial held at ESA's VH-RODA 2025 workshop. 
             The session covers key concepts around uncertainties, error correlation and how to handle these with the CoMet toolkit.
             There will first be a presentation with some theoretical background, and an introduction to the CoMet toolkit, followed by 2 guided exercises using the CoMet toolkit. Participants will:"
