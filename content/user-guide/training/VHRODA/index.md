@@ -12,7 +12,7 @@ sections:
     id: vhroda
     content:
       items:
-      - title: CoMet toolkit training session at VH-RODA
+        - title: CoMet toolkit training session at VH-RODA
           text: >
             Another CoMet toolkit hands-on training session is taking place at Very High-resolution Radar & Optical Data Assessment (VH-RODA) Workshop. 
 
