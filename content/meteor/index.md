@@ -1,12 +1,18 @@
 ---
 title: MetEOR Coming Soon!
+summary: What is the MetEOR Toolkit?
 date: 2025-11-13
 
-image: meteor_logo.png
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
 
 authors:
+  - RasmaOrmane
   - admin
 ---
+
+<!-- Welcome 👋 -->
 
 ## ❔ What is MetEOR?
 
