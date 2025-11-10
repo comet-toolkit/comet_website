@@ -51,10 +51,13 @@ main:
     weight: 31
   - name: News
     url: latest-news
-    weight: 50
+    weight: 60
   - name: Projects
     url: projects
-    weight: 60
+    weight: 70
   - name: People
     url: people
-    weight: 70
+    weight: 80
+  - name: MetEOR
+    url: /meteor
+    weight: 50
