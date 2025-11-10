@@ -13,14 +13,13 @@ sections:
     content:
       items:
         - title: CoMet toolkit training session at VH-RODA
-          text: >
-            Another CoMet toolkit hands-on training session is taking place at Very High-resolution Radar & Optical Data Assessment (VH-RODA) Workshop. 
+          text: "Another CoMet toolkit hands-on training session is taking place at Very High-resolution Radar & Optical Data Assessment (VH-RODA) Workshop. 
 
             🗓️ Wednesday 19th November
             ⏰ 12:50-13:40
             📍 ESA-ESRIN, Frascati Italy (Room TBC)
             
-            This workshop covers key concepts around uncertainties in Earth Observation (EO) data and complete guided exercises using the CoMet tools through interactive notebooks hosted on Google Colab.
+            This workshop covers key concepts around uncertainties in Earth Observation (EO) data and complete guided exercises using the CoMet tools through interactive notebooks hosted on Google Colab."
             
           # Upload image to `assets/media/` and reference the filename here
           image: VHRODA.jpg
