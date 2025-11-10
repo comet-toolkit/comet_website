@@ -33,7 +33,7 @@ sections:
     id: exercises
     content:
       title: Exercises
-      text: Links and descriptions to the three exercises for this training session, hosted on google colab.
+      text: Links and descriptions to the two exercises for this training session, hosted on google colab.
       items:
         - name: "[**Exercise 1**: Introduction to Punpy Capabilities     (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/VH-RODA_training_exercise1.ipynb)"
           icon: code-bracket
