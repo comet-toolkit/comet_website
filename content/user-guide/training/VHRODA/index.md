@@ -12,8 +12,8 @@ sections:
     id: vhroda
     content:
       items:
-        - title: CoMet toolkit training session at VH-RODA
-          text: "Another CoMet toolkit hands-on training session is taking place at Very High-resolution Radar & Optical Data Assessment (VH-RODA) Workshop. \n
+        - title: CoMet toolkit training session at VH-RODA 2025
+          text: "Another CoMet toolkit hands-on training session is taking place at ESA's Very High-resolution Radar & Optical Data Assessment (VH-RODA) Workshop 2025. \n
             \n
 
 
@@ -21,7 +21,7 @@ sections:
 
             ⏰ 12:50-13:40 \n
 
-            📍 ESA-ESRIN, Frascati Italy (Room TBC) \n
+            📍 ESA-ESRIN, Frascati Italy (Main Hall) \n
             \n
 
 
