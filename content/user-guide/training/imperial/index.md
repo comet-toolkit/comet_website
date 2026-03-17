@@ -18,19 +18,16 @@ sections:
             
             On this page you'll find links to the training materials.
             
-            This session covers key concepts around uncertainties, with guided exercises using the CoMet toolkit. 
-
-            💡 You will:
-            - Gain a conceptual overview of uncertainties in Earth Observation data processing.
-            - Learn how to use the CoMet tools in practical workflows.
-            - Apply methods through interactive notebooks hosted on Google Colab.
-
+            This session covers key concepts around uncertainties, with guided exercises using the CoMet toolkit. You will:
           feature_icon: check
           features:
-            - "📃 **Uncertainties 101**: A short introduction to key concepts and why they matter.  
-              &nbsp;&nbsp;• Why uncertainty matters? 
-              &nbsp;&nbsp;• What is the CoMet Toolkit? 
-              &nbsp;&nbsp;• How CoMet helps with uncertainty handling"
+            - Gain a conceptual overview of uncertainties in Earth Observation data processing.
+    
+            - Learn how to use the CoMet tools in practical workflows.
+    
+            - Apply methods through interactive notebooks hosted on Google Colab.
+  
+            - "📃 **Uncertainties 101**: A short introduction to key concepts, why they matter, and how CoMet helps with uncertainty handling"
             
           # Upload image to `assets/media/` and reference the filename here
           image: imperial.jpg
