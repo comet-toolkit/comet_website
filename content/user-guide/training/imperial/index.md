@@ -1,6 +1,6 @@
 ---
-title: LPS training
-date: 2025-06-20
+title: Imperial training
+date: 2026-03-19
 type: landing
 
 design:
@@ -12,12 +12,15 @@ sections:
     id: lps
     content:
       items:
-        - title: 🙌 Hands-on training session at LPS
+        - title: 🙌 Hands-on training session
           text: >
-            On this page you'll find links to the training material for the CoMet tutorial held at ESA's Living Planet Symposium 2025. 
-            The session covers key concepts around uncertainties, with guided exercises using the CoMet toolkit. 
+            Welcome to the CoMet tutorial held at Imperial College London!
+            
+            On this page you'll find links to the training materials.
+            
+            This session covers key concepts around uncertainties, with guided exercises using the CoMet toolkit. 
 
-            💡 Participants will:
+            💡 You will:
             - Gain a conceptual overview of uncertainties in Earth Observation data processing.
             - Learn how to use the CoMet tools in practical workflows.
             - Apply methods through interactive notebooks hosted on Google Colab.
@@ -50,8 +53,8 @@ sections:
               &nbsp;&nbsp;• Generate and interpret uncertainty-aware outputs"
 
           # Upload image to `assets/media/` and reference the filename here
-          image: LPS.jpg
-          caption: 'Image credit: ESA'
+          image: imperial.jpg
+          caption: 'Image credit: Imperial'
           button:
             text: Download Slides
             url: LPS_introduction_CoMet_toolkit.pdf

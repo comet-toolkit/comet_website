@@ -1,28 +1,83 @@
 ---
-title: Living Planet Symposium 2025
-summary: Hands-on tutorial on the CoMet Toolkit at the Living Planet Symposium 2025.
-date: 2025-05-01
+title: Spring 2026 Workshops
+summary: Overview of the five CoMet workshops and tutorials scheduled for Spring 2026.
+date: 2026-03-01
 authors:
+  - RasmaOrmane
   - admin
 tags:
-  - Poster
-  - Conference
-  - LPS
-image:
-  #caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  - Workshops
+  - Training
+  - CoMet
 ---
 
-We’re pleased to invite you to a hands-on tutorial session on the CoMet (Community Metrology) Toolkit, taking place during ESA’s Living Planet Symposium 2025:
+CoMet has a booked and busy Spring 2026 - with five workshops planned across the season.
 
-🗓 Sunday 22nd June
+These sessions are delivered with our partners across academic and professional programmes, more information about each organisation/event is linked below.
 
-🕒 15:30 – 16:50
+For any events where public registration is available, we will post the details closer to the date!
 
-📍 Vienna, Living Planet Symposium (Room TBC)
+---
 
-> The **CoMet Toolkit** (www.comet-toolkit.org) is an open-source suite of Python tools for handling and propagating uncertainties and error-correlation in measurement data. Originally designed for Earth Observation (EO) applications, CoMet’s flexible tools can be applied to any dataset involving uncertainties — making it highly relevant for anyone working with measurement functions and data analysis in Python.
+# 1. Imperial College London
 
-### 🗸 In this tutorial, we will:
+🗓 Thursday 19th March
+
+📍 Imperial College London (London, UK)
+
+![imperial](assets/media/imperial.jpg)
+
+---
+
+# 2. Wavelength Conference 2026
+
+🗓 **When:** Thursday 9th April
+
+📍 **Where:** National Physical Laboratory (Teddington, UK)
+
+🔗 **More information:** https://rspsoc.org.uk/
+
+![wavelength](assets/media/wavelength.png)
+
+---
+
+# 3. ARIA
+
+🗓 **When:** Wednesday 15th April
+
+📍 **Where:** National Physical Laboratory (Teddington, UK)
+
+🔗 **More information:** https://aria.org.uk/
+
+![aria](assets/media/aria.jpeg)
+
+---
+
+# 4. Pangeos
+
+🗓 **When:** Wednesday 23rd April
+
+📍 **Where:** Online
+
+🔗 **More information:** https://pangeos.eu/
+
+![pangeos](assets/media/pangeos.png)
+
+---
+
+# 5. Met4EO
+
+🗓 **When:** 20th-22nd May
+
+📍 **Where:** National Physical Laboratory (Teddington, UK)
+
+🔗 **More information:** https://www.qa4eo.org/met4eo/
+
+![met4eo](assets/media/met4eo.png)
+
+---
+
+### 🗸 In these tutorial, we will:
 
 - Introduce the key concepts behind metrological uncertainty propagation 
 - Walk through the core components of the toolkit:
@@ -36,3 +91,4 @@ We’ll also provide support to get you started using CoMet with your own exampl
 Whether you're working in satellite Cal/Val, EO data processing, or any other measurement-driven field, this session will help you implement rigorous, traceable uncertainty handling in your processing chains.
 
 ### 🗸 No installation is required beforehand – all examples will run in Google Colab!
+
