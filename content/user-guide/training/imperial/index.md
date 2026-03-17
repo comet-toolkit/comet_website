@@ -1,6 +1,6 @@
 ---
 title: Imperial training
-date: 2026-03-19
+date: 2026-03-16
 type: landing
 
 design:

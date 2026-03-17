@@ -25,7 +25,7 @@ For any events where public registration is available, we will post the details 
 
 📍 Imperial College London (London, UK)
 
-![imperial](imperial.jpg)
+![imperial](/media/imperial.jpg)
 
 ---
 
@@ -37,7 +37,7 @@ For any events where public registration is available, we will post the details 
 
 🔗 **More information:** https://rspsoc.org.uk/
 
-![wavelength](assets/media/wavelength.png)
+![wavelength](/media/wavelength.png)
 
 ---
 
@@ -49,7 +49,7 @@ For any events where public registration is available, we will post the details 
 
 🔗 **More information:** https://aria.org.uk/
 
-![aria](assets/media/aria.jpeg)
+![aria](/media/aria.jpeg)
 
 ---
 
@@ -61,7 +61,7 @@ For any events where public registration is available, we will post the details 
 
 🔗 **More information:** https://pangeos.eu/
 
-![pangeos](assets/media/pangeos.png)
+![pangeos](/media/pangeos.png)
 
 ---
 
@@ -73,7 +73,7 @@ For any events where public registration is available, we will post the details 
 
 🔗 **More information:** https://www.qa4eo.org/met4eo/
 
-![met4eo](assets/media/met4eo.png)
+![met4eo](/media/met4eo.png)
 
 ---
 
