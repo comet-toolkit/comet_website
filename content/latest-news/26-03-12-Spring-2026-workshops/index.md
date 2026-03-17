@@ -25,7 +25,7 @@ For any events where public registration is available, we will post the details 
 
 📍 Imperial College London (London, UK)
 
-![imperial](assets/media/imperial.jpg)
+![imperial](imperial.jpg)
 
 ---
 
