@@ -19,17 +19,17 @@ For any events where public registration is available, we will post the details 
 
 ---
 
-# 1. Imperial College London
+## 1. Imperial College London
 
-🗓 Thursday 19th March
+🗓 **When:** Thursday 19th March
 
-📍 Imperial College London (London, UK)
+📍 **Where:** Imperial College London (London, UK)
 
-![imperial](imperial.jpg)
+![imperial](imperial.png)
 
 ---
 
-# 2. Wavelength Conference 2026
+## 2. Wavelength Conference 2026
 
 🗓 **When:** Thursday 9th April
 
@@ -41,7 +41,7 @@ For any events where public registration is available, we will post the details 
 
 ---
 
-# 3. ARIA
+## 3. ARIA
 
 🗓 **When:** Wednesday 15th April
 
@@ -53,7 +53,7 @@ For any events where public registration is available, we will post the details 
 
 ---
 
-# 4. Pangeos
+## 4. Pangeos
 
 🗓 **When:** Wednesday 23rd April
 
@@ -65,7 +65,7 @@ For any events where public registration is available, we will post the details 
 
 ---
 
-# 5. Met4EO
+## 5. Met4EO
 
 🗓 **When:** 20th-22nd May
 
@@ -77,7 +77,7 @@ For any events where public registration is available, we will post the details 
 
 ---
 
-### 🗸 In these tutorial, we will:
+🗸 **In these tutorial, we will:**
 
 - Introduce the key concepts behind metrological uncertainty propagation 
 - Walk through the core components of the toolkit:
@@ -86,9 +86,9 @@ For any events where public registration is available, we will post the details 
 - Work through a sensor calibration example using Google Colab-based Jupyter notebooks
  
 
-We’ll also provide support to get you started using CoMet with your own example use-case if time permits — so feel free to bring a Python example from your work involving measurement uncertainty.
+We’ll also provide support to get you started using CoMet with your own example use-case if time permits - so feel free to bring a Python example from your work involving measurement uncertainty.
 
 Whether you're working in satellite Cal/Val, EO data processing, or any other measurement-driven field, this session will help you implement rigorous, traceable uncertainty handling in your processing chains.
 
-### 🗸 No installation is required beforehand – all examples will run in Google Colab!
+🗸 **No installation is required beforehand – all examples will run in Google Colab!**
 

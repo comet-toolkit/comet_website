@@ -4,7 +4,6 @@ date: 2026-03-16
 type: landing
 
 design:
-  # Default section spacing
   spacing: "6rem"
 
 sections:
@@ -15,9 +14,9 @@ sections:
         - title: 🙌 Hands-on training session
           text: >
             Welcome to the CoMet tutorial held at Imperial College London!
-            
+
             On this page you'll find links to the training materials.
-            
+
             This session covers key concepts around uncertainties, with guided exercises using the CoMet toolkit. You will:
           feature_icon: check
           features:
@@ -34,7 +33,7 @@ sections:
           caption: 'Image credit: Imperial'
           button:
             text: Download Slides
-            url: LPS_introduction_CoMet_toolkit.pdf
+            url: Imperial_CoMet_toolkit.pdf
             icon: hero/download
 
   - block: features
