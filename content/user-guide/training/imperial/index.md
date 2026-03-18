@@ -27,7 +27,7 @@ sections:
     
             - Apply methods through interactive notebooks hosted on Google Colab.
   
-            - "📃 **Uncertainties 101**: A short introduction to key concepts, why they matter, and how CoMet helps with uncertainty handling"
+            - "📃 **Uncertainties 101**: A short introduction to key concepts, why they matter, and how CoMet helps with uncertainty handling."
             
           # Upload image to `assets/media/` and reference the filename here
           image: imperial.jpg
