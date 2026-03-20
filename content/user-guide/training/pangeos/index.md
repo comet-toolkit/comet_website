@@ -14,7 +14,7 @@ sections:
       items:
         - title: 🙌 Hands-on training session
           text: >
-            Welcome to the CoMet tutorial held at Imperial College London!
+            Welcome to the CoMet tutorial for the PANGEOS summerschool!
 
             On this page you'll find links to the training materials.
 
@@ -30,11 +30,11 @@ sections:
             - "📃 **Uncertainties 101**: A short introduction to key concepts, why they matter, and how CoMet helps with uncertainty handling."
             
           # Upload image to `assets/media/` and reference the filename here
-          image: imperial.png
-          caption: 'Image credit: Imperial'
+          image: pangeos.png
+          caption: 'Image credit: Pangeos logo'
           button:
             text: Download Slides
-            url: Imperial_CoMet_toolkit.pdf
+            url: pangeos_CoMet_toolkit.pdf
             icon: hero/download
 
   - block: features
