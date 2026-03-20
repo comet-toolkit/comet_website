@@ -1,5 +1,5 @@
 ---
-title: Imperial training
+title: PANGEOS training
 date: 2026-03-19
 
 type: landing
