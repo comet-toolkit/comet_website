@@ -44,5 +44,3 @@ Uncertainty propagation through the retrieval can be performed using:
 - Optimal Estimation (OE)
 
 Measurement values and uncertainties can be supplied manually or via an *obsarray* dataset. **curepy** also provides tools to analyse retrieval outputs, quantify uncertainties, compare results, and export them again as obsarray datasets.
-
-![alt text](curepy_logo.png)
