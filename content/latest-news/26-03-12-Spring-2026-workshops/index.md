@@ -25,11 +25,23 @@ For any events where public registration is available, we will post the details 
 
 📍 **Where:** Imperial College London (London, UK)
 
-![imperial](imperial.png)
+![imperial](assets/media/imperial.png)
 
 ---
 
-## 2. Wavelength Conference 2026
+## 2. Pangeos
+
+🗓 **When:** Monday 23rd March
+
+📍 **Where:** Online
+
+🔗 **More information:** https://pangeos.eu/
+
+![pangeos](assets/media/pangeos.png)
+
+---
+
+## 3. Wavelength Conference 2026
 
 🗓 **When:** Thursday 9th April
 
@@ -37,11 +49,11 @@ For any events where public registration is available, we will post the details 
 
 🔗 **More information:** https://rspsoc.org.uk/
 
-![wavelength](wavelength.png)
+![wavelength](assets/media/wavelength.png)
 
 ---
 
-## 3. ARIA
+## 4. ARIA
 
 🗓 **When:** Wednesday 15th April
 
@@ -49,19 +61,7 @@ For any events where public registration is available, we will post the details 
 
 🔗 **More information:** https://aria.org.uk/
 
-![aria](aria.jpeg)
-
----
-
-## 4. Pangeos
-
-🗓 **When:** Wednesday 23rd April
-
-📍 **Where:** Online
-
-🔗 **More information:** https://pangeos.eu/
-
-![pangeos](pangeos.png)
+![aria](assets/media/aria.jpeg)
 
 ---
 
@@ -73,11 +73,11 @@ For any events where public registration is available, we will post the details 
 
 🔗 **More information:** https://www.qa4eo.org/met4eo/
 
-![met4eo](met4eo.png)
+![met4eo](assets/media/met4eo.png)
 
 ---
 
-🗸 **In these tutorial, we will:**
+### 🗸 In these tutorial, we will:
 
 - Introduce the key concepts behind metrological uncertainty propagation 
 - Walk through the core components of the toolkit:
@@ -86,9 +86,9 @@ For any events where public registration is available, we will post the details 
 - Work through a sensor calibration example using Google Colab-based Jupyter notebooks
  
 
-We’ll also provide support to get you started using CoMet with your own example use-case if time permits - so feel free to bring a Python example from your work involving measurement uncertainty.
+We’ll also provide support to get you started using CoMet with your own example use-case if time permits — so feel free to bring a Python example from your work involving measurement uncertainty.
 
 Whether you're working in satellite Cal/Val, EO data processing, or any other measurement-driven field, this session will help you implement rigorous, traceable uncertainty handling in your processing chains.
 
-🗸 **No installation is required beforehand – all examples will run in Google Colab!**
+### 🗸 No installation is required beforehand – all examples will run in Google Colab!
 
