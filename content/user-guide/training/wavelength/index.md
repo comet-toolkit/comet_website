@@ -34,7 +34,7 @@ sections:
             - Gain an understanding of why uncertainty matters in Earth Observation workflows.
             - Learn core concepts of uncertainty propagation using the CoMet toolkit.
             - Explore practical examples using Punpy and Obsarray in Google Colab.
-            - 📃 **Uncertainties 101**: Introduction to uncertainty concepts, EO workflows, and the CoMet toolkit.
+            - **Uncertainties 101**: Introduction to uncertainty concepts, EO workflows, and the CoMet toolkit.
 
           image: wavelength.png
           caption: 'Image credit: Wavelength Conference'
