@@ -19,11 +19,12 @@ sections:
             **🕰️ Time:** 15:00–16:10  
 
             **📍 Location:** National Physical Laboratory (Bushy House)  
-            <br> \n
+            <br> 
 
             On this page you'll find links to the training materials.
 
             This session covers key concepts around uncertainties, with guided exercises using the CoMet toolkit. You will:
+            <br> 
           feature_icon: check
           features:
             - Gain a conceptual overview of uncertainties in Earth Observation data processing.
