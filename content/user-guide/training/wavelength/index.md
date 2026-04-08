@@ -15,7 +15,9 @@ sections:
         - title: 🎓 CoMet Training Workshop – Wavelength Conference 2026
           text: >
             **📅 Date:** Thursday 9th April  
+
             **🕰️ Time:** 15:00–16:10  
+            
             **📍 Location:** National Physical Laboratory (Bushy House)  
 
             This hands‑on workshop introduces **uncertainty handling in Earth Observation**
