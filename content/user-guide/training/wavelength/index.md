@@ -19,7 +19,7 @@ sections:
             **🕰️ Time:** 15:00–16:10  
 
             **📍 Location:** National Physical Laboratory (Bushy House)  
-            <br>
+            <br> \n
 
             On this page you'll find links to the training materials.
 
