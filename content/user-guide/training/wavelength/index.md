@@ -1,6 +1,6 @@
 ---
 title: Wavelength 2026 Workshop
-date: 2026-04-09
+date: 2026-04-08
 
 type: landing
 
