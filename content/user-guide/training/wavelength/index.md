@@ -19,30 +19,19 @@ sections:
             **🕰️ Time:** 15:00–16:10  
 
             **📍 Location:** National Physical Laboratory (Bushy House)  
+            <br>
 
-            This hands‑on workshop introduces **uncertainty handling in Earth Observation**
-            using the **CoMet toolkit**.
+            On this page you'll find links to the training materials.
 
-            The session combines short presentations with guided, practical exercises
-            using Google Colab notebooks.
-
-            
-            🔎 **Session outline:**
-
-            - Metrology fundamentals for Earth Observation
-            
-            - Uncertainty propagation with CoMet
-
-            - Guided hands‑on exercises using Google Colab
-
+            This session covers key concepts around uncertainties, with guided exercises using the CoMet toolkit. You will:
           feature_icon: check
           features:
-            - Gain an understanding of why uncertainty matters in Earth Observation workflows.
-
-            - Learn core concepts of uncertainty propagation using the CoMet toolkit.
-
-            - Explore practical examples using Punpy and Obsarray in Google Colab.
-
+            - Gain a conceptual overview of uncertainties in Earth Observation data processing.
+    
+            - Learn how to use the CoMet tools in practical workflows.
+    
+            - Apply methods through interactive notebooks hosted on Google Colab.
+  
             - "📃 **Uncertainties 101**: A short introduction to key concepts, why they matter, and how CoMet helps with uncertainty handling."
 
           image: wavelength.png
