@@ -25,8 +25,10 @@ sections:
 
             This session covers key concepts around uncertainties, with guided exercises using the CoMet toolkit. You will:
             <br> 
+            
           feature_icon: check
           features:
+            <br> 
             - Gain a conceptual overview of uncertainties in Earth Observation data processing.
     
             - Learn how to use the CoMet tools in practical workflows.
