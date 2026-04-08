@@ -17,7 +17,7 @@ sections:
             **📅 Date:** Thursday 9th April  
 
             **🕰️ Time:** 15:00–16:10  
-            
+
             **📍 Location:** National Physical Laboratory (Bushy House)  
 
             This hands‑on workshop introduces **uncertainty handling in Earth Observation**
@@ -28,11 +28,11 @@ sections:
 
             🔎 **Session outline:**
 
-            - Metrology fundamentals for Earth Observation  
+            "- Metrology fundamentals for Earth Observation"
 
-            - Uncertainty propagation with CoMet  
+            "- Uncertainty propagation with CoMet"  
 
-            - Guided hands‑on exercises using Google Colab
+            "- Guided hands‑on exercises using Google Colab"
 
           feature_icon: check
           features:
