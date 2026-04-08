@@ -89,6 +89,24 @@ This example covers the following concepts:
   - Extrapolation
   - 1D interpolation along high-resolution example
 
+## ☄️ Curepy retrieval 
+
+### 🗸 How to obtain uncertainties for inverse problems?
+
+A jupyter notebook for **retrievals** with uncertainties can be found [here](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/curepy_example.ipynb).
+
+This example allows you to get familiar with the [**curepy**](/tools/curepy) tool, and covers the following concepts:
+
+  - Propagate uncertainties through a basic inverse problem (harmonisation of two sensors). 
+  - Pass all relevant inputs to curepy
+    1. Measurements
+    2. Measurement function
+    3. Prior
+    4. Ancillary params
+  - Run curepy retrieval to obtain state vector with uncertainties and error correlation
+    1. MCMC
+    2. Optimal Estimation
+
 ## 🗂️ Project specific examples
 
 In this section, we have compiled a list of external projects and examples that have utilised the CoMet Toolkit. 

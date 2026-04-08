@@ -38,6 +38,10 @@ main:
     weight: 30
     hasChildren: true
   - parent: Tools
+    name: curepy
+    url: tools/curepy
+    weight: 34
+  - parent: Tools
     name: comet_maths
     url: tools/comet_maths
     weight: 33

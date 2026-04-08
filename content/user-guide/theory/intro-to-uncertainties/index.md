@@ -12,7 +12,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-Navigating the world of uncertainties can be quite tricky, as oftentimes terms such as _errors_ and _uncertainties_ are used interchangeably, even though they do not describe the same thing.
+Navigating the world of uncertainties can be quite tricky, as often terms such as _errors_ and _uncertainties_ are used interchangeably, even though they do not describe the same thing.
 
 In this brief introduction to uncertainties and their propagation, we will highlight the most important concepts and signpost you to useful resources. 
 

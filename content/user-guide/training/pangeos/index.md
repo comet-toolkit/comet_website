@@ -1,10 +1,10 @@
 ---
-title: LPS training
-date: 2025-06-20
+title: PANGEOS training
+date: 2026-03-19
+
 type: landing
 
 design:
-  # Default section spacing
   spacing: "6rem"
 
 sections:
@@ -12,10 +12,13 @@ sections:
     id: lps
     content:
       items:
-        - title: Hands-on training session at LPS
-          text: "On this page you'll find links to the training material for the CoMet tutorial held at ESA's Living Planet Symposium 2025. 
-            The session covers key concepts around uncertainties, error correlation and how to handle these with the CoMet toolkit.
-            There will first be a presentation with some theoretical background, and an introduction to the CoMet toolkit, followed by 3 guided exercises using the CoMet toolkit. Participants will:"
+        - title: 🙌 Hands-on training session
+          text: >
+            Welcome to the CoMet tutorial for the PANGEOS summerschool!
+
+            On this page you'll find links to the training materials.
+
+            This session covers key concepts around uncertainties, with guided exercises using the CoMet toolkit. You will:
           feature_icon: check
           features:
             - Gain a conceptual overview of uncertainties in Earth Observation data processing.
@@ -23,13 +26,17 @@ sections:
             - Learn how to use the CoMet tools in practical workflows.
     
             - Apply methods through interactive notebooks hosted on Google Colab.
+  
+            - "📃 **Uncertainties 101**: A short introduction to key concepts, why they matter, and how CoMet helps with uncertainty handling."
+            
           # Upload image to `assets/media/` and reference the filename here
-          image: LPS.jpg
-          caption: 'Image credit: ESA'
+          image: pangeos.png
+          caption: 'Image credit: Pangeos logo'
           button:
             text: Download Slides
-            url: LPS_introduction_CoMet_toolkit.pdf
+            url: pangeos_CoMet_toolkit.pdf
             icon: hero/download
+
   - block: features
     id: exercises
     content:
