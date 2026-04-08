@@ -25,15 +25,21 @@ sections:
             using Google Colab notebooks.
 
             🔎 **Session outline:**
+
             - Metrology fundamentals for Earth Observation  
+
             - Uncertainty propagation with CoMet  
+
             - Guided hands‑on exercises using Google Colab
 
           feature_icon: check
           features:
             - Gain an understanding of why uncertainty matters in Earth Observation workflows.
+
             - Learn core concepts of uncertainty propagation using the CoMet toolkit.
+
             - Explore practical examples using Punpy and Obsarray in Google Colab.
+
             - "📃 **Uncertainties 101**: A short introduction to key concepts, why they matter, and how CoMet helps with uncertainty handling."
 
           image: wavelength.png
@@ -52,14 +58,18 @@ sections:
         - name: "[**Exercise 1**: Uncertainty Propagation Basics (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_no_errcorr.ipynb)"
           icon: code-bracket
           description: "• Simple measurement functions \n
+
               • Manual specification of input uncertainties \n
-              • Handling correlated errors"
+
+              • MC and LPU uncertainty propagation methods"
 
         - name: "[**Exercise 2**: Error Correlation in EO Datasets (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_with_errcorr.ipynb)"
           icon: star
-          description: "• Structured error correlations \n
-              • Multi‑dimensional uncertainty storage \n
-              • Uncertainty propagation through EO‑style datasets"
+          description: "• Simple measurement functions \n
+
+              • propagating error correlation information  \n
+
+              • random and systematic uncertainties"
 
         - name: "**✅ Solutions**"
           icon: sparkles
