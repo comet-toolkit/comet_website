@@ -34,7 +34,7 @@ sections:
             - Gain an understanding of why uncertainty matters in Earth Observation workflows.
             - Learn core concepts of uncertainty propagation using the CoMet toolkit.
             - Explore practical examples using Punpy and Obsarray in Google Colab.
-            - **Uncertainties 101**: Introduction to uncertainty concepts, EO workflows, and the CoMet toolkit.
+            - "📃 **Uncertainties 101**: A short introduction to key concepts, why they matter, and how CoMet helps with uncertainty handling."
 
           image: wavelength.png
           caption: 'Image credit: Wavelength Conference'
@@ -55,7 +55,7 @@ sections:
               • Manual specification of input uncertainties \n
               • Handling correlated errors"
 
-        - name: "[**Exercise 2**: Error Correlation in EO Datasets (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_no_errcorr.ipynb)"
+        - name: "[**Exercise 2**: Error Correlation in EO Datasets (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_with_errcorr.ipynb)"
           icon: star
           description: "• Structured error correlations \n
               • Multi‑dimensional uncertainty storage \n
