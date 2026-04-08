@@ -19,17 +19,29 @@ For any events where public registration is available, we will post the details 
 
 ---
 
-# 1. Imperial College London
+## 1. Imperial College London
 
-🗓 Thursday 19th March
+🗓 **When:** Thursday 19th March
 
-📍 Imperial College London (London, UK)
+📍 **Where:** Imperial College London (London, UK)
 
-![imperial](assets/media/imperial.jpg)
+![imperial](assets/media/imperial.png)
 
 ---
 
-# 2. Wavelength Conference 2026
+## 2. Pangeos
+
+🗓 **When:** Monday 23rd March
+
+📍 **Where:** Online
+
+🔗 **More information:** https://pangeos.eu/
+
+![pangeos](assets/media/pangeos.png)
+
+---
+
+## 3. Wavelength Conference 2026
 
 🗓 **When:** Thursday 9th April
 
@@ -41,7 +53,7 @@ For any events where public registration is available, we will post the details 
 
 ---
 
-# 3. ARIA
+## 4. ARIA
 
 🗓 **When:** Wednesday 15th April
 
@@ -53,19 +65,7 @@ For any events where public registration is available, we will post the details 
 
 ---
 
-# 4. Pangeos
-
-🗓 **When:** Wednesday 23rd April
-
-📍 **Where:** Online
-
-🔗 **More information:** https://pangeos.eu/
-
-![pangeos](assets/media/pangeos.png)
-
----
-
-# 5. Met4EO
+## 5. Met4EO
 
 🗓 **When:** 20th-22nd May
 
