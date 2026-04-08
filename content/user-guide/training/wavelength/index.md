@@ -13,7 +13,7 @@ sections:
     content:
       items:
         - title: 🎓 CoMet Training Workshop – Wavelength Conference 2026
-          text: >
+          text: |
             **📅 Date:** Thursday 9th April  
 
             **🕰️ Time:** 15:00–16:10  
@@ -26,13 +26,14 @@ sections:
             The session combines short presentations with guided, practical exercises
             using Google Colab notebooks.
 
+            
             🔎 **Session outline:**
 
-            "- Metrology fundamentals for Earth Observation"
+            - Metrology fundamentals for Earth Observation
+            
+            - Uncertainty propagation with CoMet
 
-            "- Uncertainty propagation with CoMet"  
-
-            "- Guided hands‑on exercises using Google Colab"
+            - Guided hands‑on exercises using Google Colab
 
           feature_icon: check
           features:
