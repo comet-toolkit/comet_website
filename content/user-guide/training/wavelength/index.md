@@ -67,9 +67,9 @@ sections:
           icon: star
           description: "• Simple measurement functions \n
 
-              • propagating error correlation information  \n
+              • Propagating error correlation information  \n
 
-              • random and systematic uncertainties"
+              • Random and systematic uncertainties"
 
         - name: "**✅ Solutions**"
           icon: sparkles
