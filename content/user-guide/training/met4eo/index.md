@@ -76,17 +76,17 @@ sections:
 
         - name: "[**Exercise 4**: Multi-Dimension Datasets (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_Training_Exercise4.ipynb)"
           icon: code-bracket
-          description: "• Use obsarray to store error-correlation information for multi-dimensional measurement datasets - such as from Earth Observation.\n
+          description: "• Use obsarray to store error-correlation information for multi-dimensional measurement datasets - such as from Earth Observation.
 
-              • Propagate uncertainties from these datasets through measurement functions using punpy.
+              • Propagate uncertainties from these datasets through measurement functions using punpy."
 
-        - name: "[(optional if time allows) **Exercise 5**: Work on your own use case or HYPERNETS (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_HYPERNETS_exercise.ipynb)"
+        - name: "[(if time allows) **Exercise 5**: Work on your own use case of HYPERNETS (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_HYPERNETS_exercise.ipynb)"
           icon: star
-          description: "• Get familiar with a sample EO data (HYPERNETS) \n
+          description: "• Get familiar with a sample EO data (HYPERNETS) 
     
-              • Use the previous exercises to add uncertainties to the HYPERNETS data processing chain \n
+              • Use the previous exercises to add uncertainties to the HYPERNETS data processing chain 
     
-              • Generate and interpret uncertainty-aware outputs \n
+              • Generate and interpret uncertainty-aware outputs"
 
         - name: "**✅ Solutions**"
           icon: sparkles
