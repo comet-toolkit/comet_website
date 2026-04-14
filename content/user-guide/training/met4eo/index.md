@@ -66,7 +66,7 @@ sections:
 
               • Random and systematic uncertainties"
 
-        - name: "[**Exercise 3**: From Spectrometer Measurements to NDVI with Uncertainty Propagation (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_exercise_spectrometer.ipynb)"
+        - name: "[**Exercise 3**: From Spectrometer Measurements to NDVI (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_exercise_spectrometer.ipynb)"
           icon: sparkles
           description: "• Spectrometer example from demo and uncertainty tree diagram session \n
 

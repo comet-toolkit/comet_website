@@ -67,7 +67,9 @@ sections:
 
         - name: "**✅ Solutions**"
           icon: sparkles
-          description: "Exercise solutions will be added after the workshop."
+          description: "• [**Exercise 1**(Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_with_errcorr_solution.ipynb) \n
+
+              • [**Exercise 2** (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/punpy_with_errcorr_solution.ipynb)"
 
     design:
       css_class: "bg-gray-100 dark:bg-gray-900"
