@@ -79,13 +79,13 @@ sections:
 
               • Propagate uncertainties from these datasets through measurement functions using punpy."
 
-        - name: "[(if time allows) **Exercise 5**: Work on your own use case of HYPERNETS (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_HYPERNETS_exercise.ipynb)"
+        - name: "[(if time allows) **Exercise 5**: Dealing with error correlation in time series](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_temporal_combined.ipynb)"
           icon: star
-          description: "• Get familiar with a sample EO data (HYPERNETS) \n
+          description: "• How to handle uncertainties when processing files one at a time \n
     
-              • Use the previous exercises to add uncertainties to the HYPERNETS data processing chain \n
+              • Storing data with multiple uncertainty comnponents with common temporal error correlation \n
     
-              • Generate and interpret uncertainty-aware outputs \n"
+              • Combine files at the end and handle error correlation \n"
 
         - name: "**✅ Solutions**"
           icon: sparkles
