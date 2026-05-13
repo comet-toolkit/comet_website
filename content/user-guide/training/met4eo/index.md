@@ -1,5 +1,5 @@
 ---
-title: ARIA 2026 Workshop
+title: Met4EO Training on Uncertainty Analysis for Earth Observation Datasets 2026
 date: 2026-05-01
 
 type: landing
@@ -12,13 +12,13 @@ sections:
     id: aria
     content:
       items:
-        - title: 🎓 CoMet Training Workshop – Met4EO workshop 2026
+        - title: 🎓 CoMet Training – Met4EO Uncertainty Traingin Workshop 2026
           text: |
             **📅 Start:** Thursday 21st May  
 
             **🕰️ End:** Friday 22nd May 
 
-            **📍 Location:** National Physical Laboratory   
+            **📍 Location:** National Physical Laboratory (IQST)   
             <br> 
 
             On this page you'll find links to the training materials.
@@ -34,7 +34,7 @@ sections:
     
             - Apply methods through interactive notebooks hosted on Google Colab.
   
-            - "📃 **Uncertainties 101**: A short introduction to key concepts, why they matter, and how CoMet helps with uncertainty handling."
+            - "📃 **CoMet toolkit introduction**: A short introduction to key concepts, why they matter, and how CoMet helps with uncertainty handling."
 
           image: Met4EOtraining.png
           caption: 'Image credit: Met4EO'
@@ -74,17 +74,23 @@ sections:
 
               • Random and systematic uncertainties"
 
-        - name: "[**Exercise 4**: Multi-Dimension Datasets (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_Training_Exercise4.ipynb)"
+        - name: "[**Exercise 4**: Multi-Dimension Datasets (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_Training_Exercise5.ipynb)"
           icon: code-bracket
           description: "• Use obsarray to store error-correlation information for multi-dimensional measurement datasets - such as from Earth Observation.\n
 
               • Propagate uncertainties from these datasets through measurement functions using punpy."
 
-        - name: "[(optional if time allows) **Exercise 5**: Work on your own use case or HYPERNETS (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_HYPERNETS_exercise.ipynb)"
+        - name: "[(If time allows) **Exercise 5**: Uncertainty propagation for inidividual products in a timeseries](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_temporal_combined.ipynb)"
+          icon: code-bracket
+          description: "• Often, products are processed one at a time, and thus uncertainties need to align with this\n
+
+              • This exercise explores handling error correlation in such situations."
+
+        - name: "[(Friday) **Exercise 6**: Work on your own use case or HYPERNETS (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_HYPERNETS_S2_exercise.ipynb)"
           icon: star
-          description: "• Get familiar with a sample EO data (HYPERNETS) \n
+          description: "• Get familiar with sample EO data and their uncertainties (HYPERNETS & S2) \n
     
-              • Use the previous exercises to add uncertainties to the HYPERNETS data processing chain \n
+              • Perform validation comparisons between these sensors \n
     
               • Generate and interpret uncertainty-aware outputs \n"
 
