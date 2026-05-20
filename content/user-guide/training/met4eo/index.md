@@ -12,7 +12,7 @@ sections:
     id: aria
     content:
       items:
-        - title: 🎓 CoMet Training – Met4EO Uncertainty Traingin Workshop 2026
+        - title: 🎓 CoMet Training – Met4EO Uncertainty Training Workshop 2026
           text: |
             **📅 Start:** Thursday 21st May  
 
@@ -40,7 +40,7 @@ sections:
           caption: 'Image credit: Met4EO'
           button:
             text: Download Slides
-            url: Met4EO_CoMet_toolkit.pdf
+            url: Met4EO - Uncertainty Training - 06 CoMet - De Vis & Hunt.pdf
             icon: hero/download
 
 
@@ -74,20 +74,20 @@ sections:
 
               • Random and systematic uncertainties"
 
-        - name: "[**Exercise 4**: Multi-Dimension Datasets (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_Training_Exercise5.ipynb)"
+        - name: "[**Exercise 4**: Multi-Dimension Datasets (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_Training_Exercise4.ipynb)"
           icon: code-bracket
           description: "• Use obsarray to store error-correlation information for multi-dimensional measurement datasets - such as from Earth Observation.\n
 
               • Propagate uncertainties from these datasets through measurement functions using punpy."
 
         - name: "[(If time allows) **Exercise 5**: Uncertainty propagation for inidividual products in a timeseries](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_temporal_combined.ipynb)"
-          icon: code-bracket
+          icon: star
           description: "• Often, products are processed one at a time, and thus uncertainties need to align with this\n
 
               • This exercise explores handling error correlation in such situations."
 
-        - name: "[(Friday) **Exercise 6**: Work on your own use case or HYPERNETS (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_HYPERNETS_S2_exercise.ipynb)"
-          icon: star
+        - name: "[(Friday) **Exercise 6**: Work on your own use case or HYPERNETS (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_HYPERNETS_exercise.ipynb)"
+          icon: sparkles
           description: "• Get familiar with sample EO data and their uncertainties (HYPERNETS & S2) \n
     
               • Perform validation comparisons between these sensors \n
