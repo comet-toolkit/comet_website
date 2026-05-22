@@ -86,9 +86,9 @@ sections:
 
               • This exercise explores handling error correlation in such situations."
 
-        - name: "[(Friday) **Exercise 6**: Work on your own use case or HYPERNETS (Click here to open exercise)](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_HYPERNETS_exercise.ipynb)"
+        - name: "[(Friday) **Exercise 6**: Work on your own use case or HYPERNETS (Click here to open exercise)](https://colab.research.google.com/github/HYPERNETS/hypernets_training/blob/main/met4eo_training.ipynb)"
           icon: sparkles
-          description: "• Get familiar with sample EO data and their uncertainties (HYPERNETS & S2) \n
+          description: "• Get familiar with sample EO data and their uncertainties (HYPERNETS, RadCalNet, L8/9 & S2) \n
     
               • Perform validation comparisons between these sensors \n
     
