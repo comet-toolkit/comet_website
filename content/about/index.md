@@ -70,7 +70,7 @@ it can be applied to any field that requires measurement uncertainty propagation
   The CoMet Toolkit is available on [**GitHub**](https://github.com/comet-toolkit) with packages installable via pip from the Python Package Index.
   **Examples** demonstrating the capabilities of this toolkit are available [**here**](https://www.comet-toolkit.org/examples/). 
 
-## 👋 Authors & Citations
+## 👋 Acknowledgements & Citations
 
   **Developed by:** National Physical Laboratory (NPL)
   

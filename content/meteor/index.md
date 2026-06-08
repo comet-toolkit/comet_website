@@ -11,15 +11,27 @@ authors:
   - admin
 ---
 
-## MetEOR Toolkit
-
 ## ❔ What is MetEOR?
-The MetEOR Toolkit (Metrology for Earth Observation and Radiometry) is an open-source Python toolkit for the comparison of satellite and reference measurements. The development of the MetEOR toolkit was funded through a number of different project, most notably the ESA [**Met4EO**](https://www.QA4EO.org/met4eo) project.
+The MetEOR Toolkit (Metrology for Earth Observation and Radiometry) is an open-source Python toolkit for the comparison of satellite and reference measurements.
 
 It supports scalable, reproducible, and uncertainty-aware Earth Observation (EO) calibration and validation workflows, helping users work consistently across large and diverse EO data archives.
 
-### Availability
-MetEOR is released as open-source software ([https://github.com/meteor-toolkit](https://github.com/meteor-toolkit)), with code, documentation (click on package name below), and training materials available to support uptake by the EO community. Each of the open source tools is also installable via pip. 
+MetEOR is designed as a modular toolkit, allowing users to adopt individual components or build complete workflows.
+
+Core functionality includes:
+
+- Identification of satellite matchup opportunities
+- Product search, filtering, and retrieval across EO catalogues
+- Harmonised access to satellite and reference data
+- Automated construction of comparison-ready datasets
+- Support for uncertainty handling and analysis
+- brdf and atmospheric corrections
+
+The toolkit integrates key steps of EO comparison into a coherent and reproducible workflow.
+
+
+## 📍 Where can the MetEOR Toolkit be accessed?
+MetEOR is available on [Github](https://github.com/meteor-toolkit), with code, documentation (click on package name below), and training materials available to support uptake by the EO community. Each of the open source tools is also installable via pip. 
 
 Currently, the following tools are available as open source:
 
@@ -36,7 +48,7 @@ There are also two tools under development, which are not yet open source:
 - scene_forge: Scene-modelling component intended to support radiative transfer and synthetic scene generation within comparison workflows.
 - eoalign: A python package for preparing comparison samples for uncertainty-quantified comparisons of satellite and reference data. 
 
-### Why MetEOR?
+## 💡Why MetEOR?
 Comparison of EO measurements is central to calibration and validation, but generating robust matchup datasets across modern archives is often complex, computationally intensive, and fragmented.
 
 MetEOR was developed to address this by providing a single, flexible framework that enables:
@@ -46,21 +58,7 @@ MetEOR was developed to address this by providing a single, flexible framework t
 - Integration with modern EO data standards and catalogues
 - Accessible, reusable tools for the wider community
 
-### What It Provides
-MetEOR is designed as a modular toolkit, allowing users to adopt individual components or build complete workflows.
-
-Core functionality includes:
-
-- Identification of satellite matchup opportunities
-- Product search, filtering, and retrieval across EO catalogues
-- Harmonised access to satellite and reference data
-- Automated construction of comparison-ready datasets
-- Support for uncertainty handling and analysis
-- brdf and atmospheric corrections
-
-The toolkit integrates key steps of EO comparison into a coherent and reproducible workflow.
-
-### Demonstrated Capability
+## 📋 Demonstrated Capability
 MetEOR has been applied to both large-scale and targeted comparison studies, including Sentinel-2 and Landsat-8 analyses.
 
 These demonstrate that the toolkit can:
@@ -72,10 +70,18 @@ These demonstrate that the toolkit can:
 This enables consistent comparison workflows across a wide range of EO applications.
 All the tools in the matchup pipeline used for the [**CEOS-PVP**](https://www.ceos-pvp.org/), are part of the MetEOR toolkit.  
 
-### Impact
+## 📍 Impact
 The MetEOR Toolkit lowers the barrier to rigorous, reproducible EO comparison studies, supporting:
 
 - Improved consistency across satellite missions
 - More traceable calibration and validation workflows
 - Scalable analysis of multi-mission datasets
+ 
 
+ ## 👋 Acknowledgements & Citations
+
+  **Developed by:** National Physical Laboratory (NPL)
+  
+  **Funding**: The development of the MetEOR toolkit was funded through a number of different project, most notably the ESA [**Met4EO**](https://www.QA4EO.org/met4eo) project.
+  
+  **Citation:** _Hunt S. E., De Vis P., Stedman M. et al. MetEOR Toolkit. [online] National Physical Laboratory. Available at: [(https://www.comet-toolkit.org/meteor)](https://www.comet-toolkit.org/meteor)_
