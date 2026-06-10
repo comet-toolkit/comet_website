@@ -82,6 +82,8 @@ The MetEOR Toolkit lowers the barrier to rigorous, reproducible EO comparison st
 
   **Developed by:** National Physical Laboratory (NPL)
   
-  **Funding**: The development of the MetEOR toolkit was funded through a number of different project, most notably the ESA [**Met4EO**](https://www.QA4EO.org/met4eo) project.
+  **Funding**: The development of the MetEOR toolkit was funded through a number of different project, most notably the European Space Agency (ESA) [**Met4EO**](https://www.QA4EO.org/met4eo) project. 
+
+  This work was also supported by the UK's Natural Environment Research Council [NERC grant reference number NE/X019071/1, “UK EO Climate Information Service”], the ESA-funded TRUTHS science studies (TRUTHS Mission Accompanying Consolidation (TMAC) and TRUTHS mission Accompanying Consolidation towards Operations Study (TACOS) contracts) and the National Measurement System programme of the UK Government’s Department for Science, Innovation and Technology.
   
   **Citation:** _Hunt S. E., De Vis P., Stedman M. et al. MetEOR Toolkit. [online] National Physical Laboratory. Available at: [(https://www.comet-toolkit.org/meteor)](https://www.comet-toolkit.org/meteor)_
