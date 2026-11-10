@@ -1,5 +1,5 @@
 ---
-title: Comparing Sentinel-2A with a RadCalNet Reference Site
+title: Comparing Sentinel-2A with a RadCalNet Observations over GONA
 summary: A step-by-step example showing how MetEOR performs uncertainty-aware satellite-to-in-situ comparisons.
 date: 2026-11-09
 authors:
@@ -12,7 +12,7 @@ tags:
   - Sentinel-2
   - RadCalNet
 image:
-  caption: 'Image credit: **NPL**'
+  caption: 'Image credit: **NPL Team**'
 ---
 
 ## 🛰️ Background
@@ -36,18 +36,18 @@ The notebook demonstrates the complete satellite-to-in-situ comparison workflow:
 3. **Prepare observations for comparison** by aligning them in space, time and spectral response.
 4. **Compare measurements with propagated uncertainties.**
 
-The workflow is designed to scale from a single matchup to large collections of satellite overpasses.
+While this example demonstrates the comparison of a single matchup, the workflow is designed to scale to large collections of satellite overpasses.
 
 ## ☄️ Which MetEOR tools are used?
 
-This example combines several tools from the MetEOR ecosystem:
+This example combines several tools from the MetEOR toolkit:
 
 | Tool | Purpose |
 |--------|--------|
-| `scrappi` | Discover and download satellite and in-situ data products |
-| `eomatch` | Find and catalogue satellite-to-in-situ matchups |
-| `eoio` | Read observations, metadata and uncertainties |
-| `meteor_maths` | Perform spectral harmonisation and mathematical processing |
+| [`scrappi`](https://meteor-toolkit.github.io/scrappi/) | Discover and download satellite and in-situ data products |
+| [`eomatch`](https://meteor-toolkit.github.io/eomatch/) | Find and catalogue satellite-to-in-situ matchups |
+| [`eoio`](https://meteor-toolkit.github.io/eoio/) | Read observations, metadata and uncertainties |
+| [`meteor_maths`](https://meteor-toolkit.github.io/meteor_maths/) | Perform spectral harmonisation and mathematical processing |
 
 Together, these tools create a consistent and traceable comparison pipeline.
 
@@ -55,27 +55,28 @@ Together, these tools create a consistent and traceable comparison pipeline.
 
 The first task is identifying a suitable satellite overpass.
 
-Using **eomatch**, MetEOR searches both satellite and reference archives to identify observations that occur at approximately the same time and location.
+Using `eomatch`, MetEOR searches both satellite and reference archives to identify observations that occur at approximately the same time and location.
 
 For this example:
 
 - Platform: **Sentinel-2A**
 - Reference site: **RadCalNet GONA**
 - Product type: **Top-of-Atmosphere Reflectance**
-- Conditions: **Clear-sky overpass**
+- Conditions: **Clear-sky overpass with observations separated by less than 15 minutes**
 
 The resulting matchup catalogue contains all information required for subsequent analysis.
 
 ## ✓ Step 2: Read the Measurements and Uncertainties
 
-After downloading the products, MetEOR reads both datasets into a common structure.
+After downloading the products, `eoio` reads both datasets into a common structure.
 
-Importantly, the measurements are not read in isolation. Their associated uncertainty information is also preserved.
+Importantly, the measurements are not read in isolation. Their associated uncertainty information and auxiliary data is also preserved.
 
 ### ➸ Sentinel-2 Uncertainties
 
-For Sentinel-2, uncertainty estimates are generated using ESA's Sentinel-2 Radiometric Uncertainty Tool. These uncertainties are separated into:
+For Sentinel-2, `eoio’s` s2_rut processor is applied during the read. This uses `s2_rut_python`, a python port of ESA's [Sentinel-2 Radiometric Uncertainty Tool](https://github.com/senbox-org/snap-rut), to generate per-pixel uncertainty estimates.”  
 
+just to make clear it’s not a separate step run after `eoio`, but is actually handled automatically within `eoio`, as it’s quite a nice feature of meteor 
 - **Systematic uncertainty** affecting all pixels similarly.
 - **Random uncertainty** varying between individual pixels.
 
@@ -108,11 +109,11 @@ The RadCalNet hyperspectral measurements are integrated across the **Sentinel-2 
 
 RadCalNet measurements are interpolated to the exact Sentinel-2 acquisition time.
 
-Throughout these processing steps, uncertainty is propagated using the uncertainty metadata stored alongside the observations.
+Throughout these processing steps, uncertainty is propagated via [`punpy`](https://www.comet-toolkit.org/tools/punpy/) using the uncertainty metadata stored alongside the observations.
 
 ## ✓ Step 4: Compare Satellite and Reference Observations
 
-Once both datasets have been harmonised, they can be compared directly.
+Once both datasets have been spatially, spectrally, and temporally aligned, they can be compared directly.
 
 The figure below shows:
 
@@ -139,7 +140,7 @@ This example demonstrates how MetEOR can:
 
 - Discover satellite-to-in-situ matchups,
 - Read observations together with uncertainty information,
-- Harmonise measurements across space, time and spectral response,
+- Align measurements across space, time and spectral response,
 - Propagate uncertainty through each processing stage,
 - Quantify agreement between satellite and reference observations.
 
