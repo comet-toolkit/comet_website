@@ -70,7 +70,7 @@ sections:
 
               • Random and systematic uncertainties"
 
-        - name: "[(If time allows) **Exercise 4**: Uncertainty propagation for inidividual products in a timeseries](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_temporal_combined.ipynb)"
+        - name: "[(If time allows) **Exercise 4**: Uncertainty propagation for individual products in a timeseries](https://colab.research.google.com/github/comet-toolkit/comet_training/blob/main/CoMet_temporal_combined.ipynb)"
           icon: star
           description: "• Often, products are processed one at a time, and thus uncertainties need to align with this\n
 
