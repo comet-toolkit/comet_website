@@ -67,14 +67,14 @@ main:
     weight: 50
     hasChildren: true
   - parent: MetEOR
-    name: MetEOR Getting Started
+    name:  Getting Started
     url: meteor/getting-started/
     weight: 51
   - parent: MetEOR
-    name: MetEOR Case Studies
+    name:  Case Studies
     url: meteor/case-studies/
     weight: 52
   - parent: MetEOR
-    name: MetEOR Examples
+    name:  Examples
     url: meteor/examples/
     weight: 53
