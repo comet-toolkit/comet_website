@@ -9,6 +9,26 @@ main:
   - name: About
     url: /about
     weight: 20
+  - name: Tools
+    url: /#tools
+    weight: 30
+    hasChildren: true
+  - parent: Tools
+    name: curepy
+    url: tools/curepy
+    weight: 34
+  - parent: Tools
+    name: comet_maths
+    url: tools/comet_maths
+    weight: 33
+  - parent: Tools
+    name: obsarray
+    url: tools/obsarray
+    weight: 32
+  - parent: Tools
+    name: punpy
+    url: tools/punpy
+    weight: 31
   - name: User Guide
     url: /user-guide
     weight: 40
@@ -33,26 +53,22 @@ main:
     name: Training
     url: user-guide/training/
     weight: 46
-  - name: Tools
-    url: /#tools
-    weight: 30
+  - name: MetEOR
+    url: /meteor
+    weight: 50
     hasChildren: true
-  - parent: Tools
-    name: curepy
-    url: tools/curepy
-    weight: 34
-  - parent: Tools
-    name: comet_maths
-    url: tools/comet_maths
-    weight: 33
-  - parent: Tools
-    name: obsarray
-    url: tools/obsarray
-    weight: 32
-  - parent: Tools
-    name: punpy
-    url: tools/punpy
-    weight: 31
+  - parent: MetEOR
+    name: Getting Started
+    url:  meteor/getting-started
+    weight: 51
+  - parent: MetEOR
+    name: Case Studies
+    url:  meteor/case-studies/
+    weight: 52
+  - parent: MetEOR
+    name: Examples
+    url:  meteor/examples/
+    weight: 53
   - name: News
     url: latest-news
     weight: 60
@@ -62,6 +78,3 @@ main:
   - name: People
     url: people
     weight: 80
-  - name: MetEOR
-    url: /meteor
-    weight: 50
