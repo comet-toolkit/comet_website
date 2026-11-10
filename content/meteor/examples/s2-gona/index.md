@@ -12,7 +12,7 @@ tags:
   - Sentinel-2
   - RadCalNet
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'Image credit: **NPL**'
 ---
 
 ## 🛰️ Background

@@ -1,5 +1,5 @@
 ---
-title: MetEOR Toolkit for Satellite-to-In-Situ Radiometric Validation
+title: Satellite-to-In-Situ Radiometric Validation
 summary: How MetEOR supports the CEOS RadVAL system for uncertainty-aware satellite radiometric validation.
 date: 2026-11-09
 authors:
@@ -11,7 +11,7 @@ tags:
   - MetEOR
   - Validation
 image:
-  caption: 'Image credit: **Nasa**'
+  caption: 'Image credit: **NASA**'
 ---
 
 ## 📈 Background
