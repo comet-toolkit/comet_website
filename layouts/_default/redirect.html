@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {{ $redirectURL := .Params.redirect_url | absURL }}
+  <meta http-equiv="refresh" content="0; url={{ $redirectURL }}">
+  <script>
+    window.location.replace("{{ $redirectURL }}");
+  </script>
+</head>
+<body></body>
+</html>
