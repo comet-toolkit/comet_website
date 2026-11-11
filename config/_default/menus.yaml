@@ -1,4 +1,4 @@
-# Navigation Links
+#   Navigation Links
 #   To link a page section, specify the URL as a hash `/#` followed by the `id` of the section.
 #   The `weight` parameter defines the order that the links will appear in.
 
@@ -15,22 +15,27 @@ main:
     hasChildren: true
   - parent: User Guide
     name: Getting Started
+    identifier: comet_getting_started
     url:  user-guide/getting-started
     weight: 41
   - parent: User Guide
     name: Examples
+    identifier: comet_examples
     url: user-guide/examples/
     weight: 45
   - parent: User Guide
     name: Theory
+    identifier: comet_theory
     url:  user-guide/theory/
     weight: 43
   - parent: User Guide
     name: Case Studies
+    identifier: comet_case_studies
     url: user-guide/case-studies/
     weight: 44
   - parent: User Guide
     name: Training
+    identifier: comet_training
     url: user-guide/training/
     weight: 46
   - name: Tools
@@ -65,3 +70,19 @@ main:
   - name: MetEOR
     url: /meteor
     weight: 50
+    hasChildren: true
+  - parent: MetEOR
+    name: Getting Started
+    identifier: meteor_getting_started
+    url: meteor/getting-started/
+    weight: 51
+  - parent: MetEOR
+    name: Case Studies
+    identifier: meteor_case_studies
+    url: meteor/case-studies/
+    weight: 52
+  - parent: MetEOR
+    name: Examples
+    identifier: meteor_examples
+    url: meteor/examples/
+    weight: 53
