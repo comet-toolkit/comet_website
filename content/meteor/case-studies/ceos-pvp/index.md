@@ -44,7 +44,7 @@ A detailed description of the methodology is available at:
 
 👉 https://www.ceos-pvp.org/methods
 
-### ➸ Uncertainty Analysis
+### ✓ Uncertainty Analysis
 
 Alongside the measurement comparison, MetEOR evaluates uncertainty contributions from the satellite observations, reference measurements and comparison process.
 
@@ -71,13 +71,13 @@ The dashboard also displays uncertainty estimates arising from the satellite mea
 
 ![Example RadVAL timeseries output.](radval_timeseries.png)
 
-### ➸ Explore the Results
+### ✓ Explore the Results
 
 Interactive RadVAL products are available at:
 
 👉 https://www.ceos-pvp.org/radval-dashboard
 
-### ➸ Summary
+### ✓ Summary
 
 This case study demonstrates how **MetEOR** enables traceable, uncertainty-aware satellite-to-in-situ radiometric validation within the **CEOS RadVAL** framework.
 

@@ -72,7 +72,7 @@ After downloading the products, `eoio` reads both datasets into a common structu
 
 Importantly, the measurements are not read in isolation. Their associated uncertainty information and auxiliary data is also preserved.
 
-### ➸ Sentinel-2 Uncertainties
+### Sentinel-2 Uncertainties
 
 For Sentinel-2, `eoio’s` s2_rut processor is applied during the read. This uses `s2_rut_python`, a python port of ESA's [Sentinel-2 Radiometric Uncertainty Tool](https://github.com/senbox-org/snap-rut), to generate per-pixel uncertainty estimates.”  
 
@@ -80,7 +80,7 @@ just to make clear it’s not a separate step run after `eoio`, but is actually 
 - **Systematic uncertainty** affecting all pixels similarly.
 - **Random uncertainty** varying between individual pixels.
 
-### ➸ RadCalNet Uncertainties
+### RadCalNet Uncertainties
 
 RadCalNet provides:
 
@@ -97,15 +97,15 @@ Before measurements can be compared, they must represent the same spectral, temp
 
 MetEOR performs three key adjustments:
 
-### ➸ Spatial Alignment
+### Spatial Alignment
 
 Satellite pixels within the site's region of interest are averaged to produce a representative site-scale observation.
 
-### ➸ Spectral Alignment
+### Spectral Alignment
 
 The RadCalNet hyperspectral measurements are integrated across the **Sentinel-2 spectral response functions**, producing equivalent Sentinel-2 bands.
 
-### ➸ Temporal Alignment
+### Temporal Alignment
 
 RadCalNet measurements are interpolated to the exact Sentinel-2 acquisition time.
 
@@ -124,7 +124,7 @@ The figure below shows:
 
 ![Band-integrated comparison between Sentinel-2 and RadCalNet](gona_20260515.png)
 
-### ➸ How well do they agree?
+### How well do they agree?
 
 The final step calculates the relative difference between the satellite and reference measurements for each spectral band.
 
